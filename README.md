@@ -7,6 +7,14 @@ Script to test https://github.com/Automattic/jetpack/pull/15140
 
 You don't need to run this script, you can simply see the [results here](report).
 
+## What this script does?
+
+This script parses a `git diff` between the feature branch and master and look at URLs that were replaced by function calls.
+
+When he finds a diff that has the same number of URLs and calls to the redirect URL builder, it compares them to see if the function is using the correct slug and pointing the link to the right place.
+
+It does this by verifying the target array of redirects registered on the `jetpack-redirects` lib that lives in the wpcom repository.
+
 ## Running
 
 If you want to run, here's what's needed:
