@@ -1,0 +1,2416 @@
+Found in a/_inc/client/at-a-glance/activity.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://wordpress.com/activity-log
+-- SOURCE: calypso-activity-log
+-- TARGET: https://wordpress.com/activity-log
+-- DIFF_A:   					href={ `https://wordpress.com/activity-log/${ this.props.siteRawUrl }` }
+-- DIFF_B: 					href={ getRedirectUrl( 'calypso-activity-log', { site: this.props.siteRawUrl } ) }
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/at-a-glance/akismet.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://wordpress.com/comments/all
+-- SOURCE: calypso-all-comments
+-- TARGET: https://wordpress.com/comments/all
+-- DIFF_A:   					href={ `https://wordpress.com/comments/all/${ this.props.siteRawUrl }` }
+-- DIFF_B: 					href={ getRedirectUrl( 'calypso-all-comments', { site: this.props.siteRawUrl } ) }
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/at-a-glance/backups.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/backup
+-- SOURCE: jetpack-support-backup
+-- TARGET: https://jetpack.com/support/backup
+-- DIFF_A:   			link: 'https://jetpack.com/support/backup/',
+-- DIFF_B: 			link: getRedirectUrl( 'jetpack-support-backup' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/plugins/setup
+-- SOURCE: calypso-plugins-setup
+-- TARGET: https://wordpress.com/plugins/setup
+-- DIFF_A:   										href={ `https://wordpress.com/plugins/setup/${ siteRawUrl }?only=backups` }
+-- DIFF_B: 										href={ getRedirectUrl( 'calypso-plugins-setup', {
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/settings/security
+-- SOURCE: calypso-settings-security
+-- TARGET: https://wordpress.com/settings/security
+-- DIFF_A:   							`https://wordpress.com/settings/security/${ siteRawUrl }`,
+-- DIFF_B: 							getRedirectUrl( 'calypso-settings-security', { site: siteRawUrl } ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/activity-log
+-- SOURCE: calypso-activity-log
+-- TARGET: https://wordpress.com/activity-log
+-- DIFF_A:   							`https://wordpress.com/activity-log/${ siteRawUrl }?group=rewind`,
+-- DIFF_B: 							getRedirectUrl( 'calypso-activity-log', { site: siteRawUrl, query: 'group=rewind' } ),
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/at-a-glance/monitor.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/monitor
+-- SOURCE: jetpack-support-monitor
+-- TARGET: https://jetpack.com/support/monitor
+-- DIFF_A:   			link: 'https://jetpack.com/support/monitor/',
+-- DIFF_B: 			link: getRedirectUrl( 'jetpack-support-monitor' ),
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/at-a-glance/photon.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/photon
+-- SOURCE: jetpack-support-photon
+-- TARGET: https://jetpack.com/support/photon
+-- DIFF_A:   			link: 'https://jetpack.com/support/photon/',
+-- DIFF_B: 			link: getRedirectUrl( 'jetpack-support-photon' ),
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/at-a-glance/plugins.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/site-management
+-- SOURCE: jetpack-support-site-management
+-- TARGET: https://jetpack.com/support/site-management
+-- DIFF_A:   			link: 'https://jetpack.com/support/site-management/',
+-- DIFF_B: 			link: getRedirectUrl( 'jetpack-support-site-management' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/plugins/manage
+-- SOURCE: calypso-plugins-manage
+-- TARGET: https://wordpress.com/plugins/manage
+-- DIFF_A:   		const managePluginsUrl = `https://wordpress.com/plugins/manage/${ this.props.siteRawUrl }`;
+-- DIFF_B: 		const managePluginsUrl = getRedirectUrl( 'calypso-plugins-manage', {
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/at-a-glance/protect.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/protect
+-- SOURCE: jetpack-support-protect
+-- TARGET: https://jetpack.com/support/protect
+-- DIFF_A:   			link: 'https://jetpack.com/support/protect/',
+-- DIFF_B: 			link: getRedirectUrl( 'jetpack-support-protect' ),
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/at-a-glance/scan.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/security
+-- SOURCE: jetpack-support-security
+-- TARGET: https://jetpack.com/support/security
+-- DIFF_A:   			link: 'https://jetpack.com/support/security/',
+-- DIFF_B: 			link: getRedirectUrl( 'jetpack-support-security' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://dashboard.vaultpress.com
+-- SOURCE: vaultpress-dashboard
+-- TARGET: https://dashboard.vaultpress.com
+-- DIFF_A:   									components: { a: <a href="https://dashboard.vaultpress.com/" /> },
+-- DIFF_B: 									components: { a: <a href={ getRedirectUrl( 'vaultpress-dashboard' ) } /> },
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support
+-- SOURCE: jetpack-support
+-- TARGET: https://jetpack.com/support
+-- DIFF_A:   									components: { a: <a href="https://jetpack.com/support" /> },
+-- DIFF_B: 									components: { a: <a href={ getRedirectUrl( 'jetpack-support' ) } /> },
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/plugins/vaultpress
+-- SOURCE: calypso-plugins-vaultpress
+-- TARGET: https://wordpress.com/plugins/vaultpress
+-- DIFF_A:   										href="https://wordpress.com/plugins/vaultpress"
+-- DIFF_B: 										href={ getRedirectUrl( 'calypso-plugins-vaultpress' ) }
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/settings/security
+-- SOURCE: calypso-settings-security
+-- TARGET: https://wordpress.com/settings/security
+-- DIFF_A:   							`https://wordpress.com/settings/security/${ siteRawUrl }`,
+-- DIFF_B: 							getRedirectUrl( 'calypso-settings-security', { site: siteRawUrl } ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/activity-log
+-- SOURCE: calypso-activity-log
+-- TARGET: https://wordpress.com/activity-log
+-- DIFF_A:   							`https://wordpress.com/activity-log/${ siteRawUrl }`,
+-- DIFF_B: 							getRedirectUrl( 'calypso-activity-log', { site: siteRawUrl } ),
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/at-a-glance/search.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/search
+-- SOURCE: jetpack-support-search
+-- TARGET: https://jetpack.com/support/search
+-- DIFF_A:   			link: 'https://jetpack.com/support/search/',
+-- DIFF_B: 			link: getRedirectUrl( 'jetpack-support-search' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/search
+-- SOURCE: jetpack-support-search
+-- TARGET: https://jetpack.com/support/search
+-- DIFF_A:   							link: 'https://jetpack.com/support/search/',
+-- DIFF_B: 							link: getRedirectUrl( 'jetpack-support-search' ),
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/at-a-glance/stats/dash-stats-bottom.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://wordpress.com/stats/insights
+-- SOURCE: calypso-stats-insights
+-- TARGET: https://wordpress.com/stats/insights
+-- DIFF_A:   											href={ 'https://wordpress.com/stats/insights/' + this.props.siteRawUrl }
+-- DIFF_B: 											href={ getRedirectUrl( 'calypso-stats-insights', {
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/at-a-glance/stats/index.jsx
+[OK] Diffs count matches 
+-- [ISSUE] Slug calypso-stats- not found in wpcom targets array
+-- ORIG:   https://wordpress.com/stats
+-- SOURCE: calypso-stats-
+-- TARGET: Not found!
+-- DIFF_A:   					link: `https://wordpress.com/stats/${ unit }/${ props.siteRawUrl }?startDate=${ date }`,
+-- DIFF_B: 					link: getRedirectUrl( 'calypso-stats-' + unit, { query: 'startDate=' + date } ),
+-- [ISSUE] URLs don't match: https://wordpress.com/stats -> Not found!
+
+
+-- ORIG:   https://wordpress.com/stats/insights
+-- SOURCE: calypso-stats-insights
+-- TARGET: https://wordpress.com/stats/insights
+-- DIFF_A:   											<a href={ 'https://wordpress.com/stats/insights/' + this.props.siteRawUrl } />
+-- DIFF_B: 										a: <a href={ getRedirectUrl( 'calypso-stats-insights' ) } />,
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/wordpress-com-stats
+-- SOURCE: jetpack-support-wordpress-com-stats
+-- TARGET: https://jetpack.com/support/wordpress-com-stats
+-- DIFF_A:   												href="https://jetpack.com/support/wordpress-com-stats/"
+-- DIFF_B: 												href={ getRedirectUrl( 'jetpack-support-wordpress-com-stats' ) }
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/at-a-glance/stats/test/component.js
+[OK] Diffs count matches 
+-- ORIG:   https://wordpress.com/jetpack/connect
+-- SOURCE: wpcom-jetpack-connect
+-- TARGET: https://wordpress.com/jetpack/connect
+-- DIFF_A:   			connectUrl: 'https://wordpress.com/jetpack/connect/',
+-- DIFF_B: 			connectUrl: getRedirectUrl( 'wpcom-jetpack-connect' ),
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/components/connect-button/index.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://wordpress.com/tos
+-- SOURCE: wpcom-tos
+-- TARGET: https://wordpress.com/tos
+-- DIFF_A:   										<a href="https://wordpress.com/tos" rel="noopener noreferrer" target="_blank" />
+-- DIFF_B: 											href={ getRedirectUrl( 'wpcom-tos' ) }
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/what-data-does-jetpack-sync
+-- SOURCE: jetpack-support-what-data-does-jetpack-sync
+-- TARGET: https://jetpack.com/support/what-data-does-jetpack-sync
+-- DIFF_A:   											href="https://jetpack.com/support/what-data-does-jetpack-sync"
+-- DIFF_B: 											href={ getRedirectUrl( 'jetpack-support-what-data-does-jetpack-sync' ) }
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/components/dash-item/index.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://wordpress.com/plugins/manage
+-- SOURCE: calypso-plugins-manage
+-- TARGET: https://wordpress.com/plugins/manage
+-- DIFF_A:   									: 'https://wordpress.com/plugins/manage/' + this.props.siteRawUrl
+-- DIFF_B: 									: getRedirectUrl( 'calypso-plugins-manage', { site: this.props.siteRawUrl } )
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/components/dash-item/test/component.js
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com
+-- SOURCE: jetpack
+-- TARGET: https://jetpack.com
+-- DIFF_A:   		href: 'https://jetpack.com/',
+-- DIFF_B: 		href: getRedirectUrl( 'jetpack' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com
+-- SOURCE: jetpack
+-- TARGET: https://jetpack.com
+-- DIFF_A:   		expect( wrapper.find( '.jp-dash-item__card' ).props().href ).to.be.equal( 'https://jetpack.com/' );
+-- DIFF_B: 		expect( wrapper.find( '.jp-dash-item__card' ).props().href ).to.be.equal( getRedirectUrl( 'jetpack' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/plugins/manage
+-- SOURCE: calypso-plugins-manage
+-- TARGET: https://wordpress.com/plugins/manage
+-- DIFF_A:   			expect( wrapper.find( 'SectionHeader' ).find( 'a' ).props().href ).to.be.equal( 'https://wordpress.com/plugins/manage/' + manageProps.siteRawUrl );
+-- DIFF_B: 			expect( wrapper.find( 'SectionHeader' ).find( 'a' ).props().href ).to.be.equal( getRedirectUrl( 'calypso-plugins-manage', { site: manageProps.siteRawUrl } ) );
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/components/dash-section-header/test/component.js
+[OK] Diffs count matches 
+-- ORIG:   https://wordpress.com/settings/security
+-- SOURCE: calypso-settings-security
+-- TARGET: https://wordpress.com/settings/security
+-- DIFF_A:   		let externalPath = 'https://wordpress.com/settings/security/' + testProps.siteRawUrl;
+-- DIFF_B: 		let externalPath = getRedirectUrl( 'calypso-settings-security', { site: testProps.siteRawUrl } );
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/components/footer/index.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com
+-- SOURCE: jetpack
+-- TARGET: https://jetpack.com
+-- DIFF_A:   			: 'https://jetpack.com';
+-- DIFF_B: 			: getRedirectUrl( 'jetpack' );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://automattic.com/privacy
+-- SOURCE: a8c-privacy
+-- TARGET: https://automattic.com/privacy
+-- DIFF_A:   			: 'https://automattic.com/privacy/';
+-- DIFF_B: 			: getRedirectUrl( 'a8c-privacy' );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/tos
+-- SOURCE: wpcom-tos
+-- TARGET: https://wordpress.com/tos
+-- DIFF_A:   							href="https://wordpress.com/tos/"
+-- DIFF_B: 							href={ getRedirectUrl( 'wpcom-tos' ) }
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/components/jetpack-notices/index.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/staging-sites
+-- SOURCE: jetpack-support-staging-sites
+-- TARGET: https://jetpack.com/support/staging-sites
+-- DIFF_A:   			const stagingSiteSupportLink = 'https://jetpack.com/support/staging-sites/',
+-- DIFF_B: 			const stagingSiteSupportLink = getRedirectUrl( 'jetpack-support-staging-sites' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/development-mode
+-- SOURCE: jetpack-support-development-mode
+-- TARGET: https://jetpack.com/support/development-mode
+-- DIFF_A:   								href="https://jetpack.com/support/development-mode/"
+-- DIFF_B: 								href={ getRedirectUrl( 'jetpack-support-development-mode' ) }
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/development-mode
+-- SOURCE: jetpack-support-development-mode
+-- TARGET: https://jetpack.com/support/development-mode
+-- DIFF_A:   					<NoticeAction href="https://jetpack.com/development-mode/">
+-- DIFF_B: 					<NoticeAction href={ getRedirectUrl( 'jetpack-support-development-mode' ) }>
+-- [ISSUE] URLs don't match: https://jetpack.com/development-mode -> https://jetpack.com/support/development-mode
+
+
+
+
+Found in a/_inc/client/components/jetpack-notices/state-notices.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/cancelled-connection
+-- SOURCE: jetpack-cancelled-connection
+-- TARGET: https://jetpack.com/cancelled-connection
+-- DIFF_A:   									href="https://jetpack.com/cancelled-connection/"
+-- DIFF_B: 									href={ getRedirectUrl( 'jetpack-cancelled-connection' ) }
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/tos
+-- SOURCE: wpcom-tos
+-- TARGET: https://wordpress.com/tos
+-- DIFF_A:   							a: <a href="https://wordpress.com/tos" rel="noopener noreferrer" target="_blank" />,
+-- DIFF_B: 									href={ getRedirectUrl( 'wpcom-tos' ) }
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/security/troubleshooting-protect
+-- SOURCE: jetpack-support-security-troubleshooting-protect
+-- TARGET: https://jetpack.com/support/security/troubleshooting-protect
+-- DIFF_A:   					<NoticeAction href="https://jetpack.com/support/security/troubleshooting-protect/">
+-- DIFF_B: 						href={ getRedirectUrl( 'jetpack-support-security-troubleshooting-protect' ) }
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/components/jetpack-termination-dialog/features.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/features/design/content-delivery-network
+-- SOURCE: jetpack-features-design-content-delivery-network
+-- TARGET: https://jetpack.com/features/design/content-delivery-network
+-- DIFF_A:   								href="https://jetpack.com/features/design/content-delivery-network/"
+-- DIFF_B: 								href={ getRedirectUrl( 'jetpack-features-design-content-delivery-network' ) }
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/features/security
+-- SOURCE: jetpack-features-security
+-- TARGET: https://jetpack.com/features/security
+-- DIFF_A:   									href="https://jetpack.com/features/security/"
+-- DIFF_B: 									href={ getRedirectUrl( 'jetpack-features-security' ) }
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/social
+-- SOURCE: jetpack-support-social
+-- TARGET: https://jetpack.com/support/social
+-- DIFF_A:   								href="https://jetpack.com/support/social/"
+-- DIFF_B: 								href={ getRedirectUrl( 'jetpack-support-social' ) }
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/components/module-overridden-banner/index.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/module-overrides
+-- SOURCE: jetpack-support-module-overrides
+-- TARGET: https://jetpack.com/support/module-overrides
+-- DIFF_A:   						href="http://jetpack.com/support/module-overrides/"
+-- DIFF_B: 						href={ getRedirectUrl( 'jetpack-support-module-overrides' ) }
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/components/module-settings/index.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://wordpress.com/settings/security
+-- SOURCE: calypso-settings-security
+-- TARGET: https://wordpress.com/settings/security
+-- DIFF_A:   									href={ 'https://wordpress.com/settings/security/' + this.props.module.raw_url }
+-- DIFF_B: 									href={ getRedirectUrl( 'calypso-settings-security', {
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/components/module-toggle/index.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/module-overrides
+-- SOURCE: jetpack-support-module-overrides
+-- TARGET: https://jetpack.com/support/module-overrides
+-- DIFF_A:   						href="http://jetpack.com/support/module-overrides/"
+-- DIFF_B: 						href={ getRedirectUrl( 'jetpack-support-module-overrides' ) }
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/components/product-card/index.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://wordpress.com/me/purchases
+-- SOURCE: calypso-me-purchases
+-- TARGET: https://wordpress.com/me/purchases
+-- DIFF_A:   		return `https://wordpress.com/me/purchases/${ siteName }/${ purchaseId }`;
+-- DIFF_B: 		return getRedirectUrl( 'calypso-me-purchases', { site: siteName, path: purchaseId } );
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/components/settings-card/test/component.js
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/protect
+-- SOURCE: jetpack-support-protect
+-- TARGET: https://jetpack.com/support/protect
+-- DIFF_A:   				learn_more_button: 'https://jetpack.com/support/protect'
+-- DIFF_B: 				learn_more_button: getRedirectUrl( 'jetpack-support-protect' )
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com
+-- SOURCE: jetpack
+-- TARGET: https://jetpack.com
+-- DIFF_A:   			support: 'https://jetpack.com/'
+-- DIFF_B: 			support: getRedirectUrl( 'jetpack' )
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/components/settings-group/test/component.js
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/protect
+-- SOURCE: jetpack-support-protect
+-- TARGET: https://jetpack.com/support/protect
+-- DIFF_A:   			link: 'https://jetpack.com/support/protect',
+-- DIFF_B: 			link: getRedirectUrl( 'jetpack-support-protect' ),
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/components/support-card/index.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://wordpress.com/help/contact
+-- SOURCE: wpcom-help-contact
+-- TARGET: https://wordpress.com/help/contact
+-- DIFF_A:   										? 'https://wordpress.com/help/contact/'
+-- DIFF_B: 										? getRedirectUrl( 'wpcom-help-contact' )
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/help
+-- SOURCE: wpcom-help
+-- TARGET: https://wordpress.com/help
+-- DIFF_A:   										? 'https://wordpress.com/help/'
+-- DIFF_B: 										? getRedirectUrl( 'wpcom-help' )
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support
+-- SOURCE: jetpack-support
+-- TARGET: https://jetpack.com/support
+-- DIFF_A:   										: 'https://jetpack.com/support/'
+-- DIFF_B: 										: getRedirectUrl( 'jetpack-support' )
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/constants/urls.js
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/contact-support
+-- SOURCE: jetpack-contact-support
+-- TARGET: https://jetpack.com/contact-support
+-- DIFF_A:   export const JETPACK_CONTACT_SUPPORT = 'https://jetpack.com/contact-support';
+-- DIFF_B: export const JETPACK_CONTACT_SUPPORT = getRedirectUrl( 'jetpack-contact-support' );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/contact-support/beta-group
+-- SOURCE: jetpack-contact-support-beta-group
+-- TARGET: https://jetpack.com/contact-support/beta-group
+-- DIFF_A:   export const JETPACK_CONTACT_BETA_SUPPORT = 'https://jetpack.com/contact-support/beta-group';
+-- DIFF_B: export const JETPACK_CONTACT_BETA_SUPPORT = getRedirectUrl( 'jetpack-contact-support-beta-group' );
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/discussion/comments.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/comments
+-- SOURCE: jetpack-support-comments
+-- TARGET: https://jetpack.com/support/comments
+-- DIFF_A:   							link: 'https://jetpack.com/support/comments',
+-- DIFF_B: 							link: getRedirectUrl( 'jetpack-support-comments' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/comment-likes
+-- SOURCE: jetpack-support-comment-likes
+-- TARGET: https://jetpack.com/support/comment-likes
+-- DIFF_A:   									link="https://jetpack.com/support/comment-likes/"
+-- DIFF_B: 									link={ getRedirectUrl( 'jetpack-support-comment-likes' ) }
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/comment-likes
+-- SOURCE: jetpack-support-comment-likes
+-- TARGET: https://jetpack.com/support/comment-likes
+-- DIFF_A:   									privacyLink="https://jetpack.com/support/comment-likes/#privacy"
+-- DIFF_B: 									privacyLink={ getRedirectUrl( 'jetpack-support-comment-likes', {
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/discussion/subscriptions.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://wordpress.com/people/email-followers
+-- SOURCE: calypso-people-email-followers
+-- TARGET: https://wordpress.com/people/email-followers
+-- DIFF_A:   					href={ 'https://wordpress.com/people/email-followers/' + this.props.siteRawUrl }
+-- DIFF_B: 					href={ getRedirectUrl( 'calypso-people-email-followers', {
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/subscriptions
+-- SOURCE: jetpack-support-subscriptions
+-- TARGET: https://jetpack.com/support/subscriptions
+-- DIFF_A:   						link: 'https://jetpack.com/support/subscriptions/',
+-- DIFF_B: 						link: getRedirectUrl( 'jetpack-support-subscriptions' ),
+-- [OK] Perfect Match!
+
+
+
+Found in /dev/null
+[!!] Diffs count do not match
+-- [ISSUE] URLs and function calls count dont match
+
+
+Found in a/_inc/client/my-plan/my-plan-body.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://wordpress.com/activity-log
+-- SOURCE: calypso-activity-log
+-- TARGET: https://wordpress.com/activity-log
+-- DIFF_A:   							href={ 'https://wordpress.com/activity-log/' + this.props.siteRawUrl }
+-- DIFF_B: 							href={ getRedirectUrl( 'calypso-activity-log', { site: this.props.siteRawUrl } ) }
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/activity-log
+-- SOURCE: calypso-activity-log
+-- TARGET: https://wordpress.com/activity-log
+-- DIFF_A:   								href={ 'https://wordpress.com/activity-log/' + this.props.siteRawUrl }
+-- DIFF_B: 								href={ getRedirectUrl( 'calypso-activity-log', { site: this.props.siteRawUrl } ) }
+-- [OK] Perfect Match!
+
+-- ORIG:   https://dashboard.vaultpress.com
+-- SOURCE: vaultpress-dashboard
+-- TARGET: https://dashboard.vaultpress.com
+-- DIFF_A:   								href="https://dashboard.vaultpress.com/"
+-- DIFF_B: 								href={ getRedirectUrl( 'vaultpress-dashboard' ) }
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/plugins/setup
+-- SOURCE: calypso-plugins-setup
+-- TARGET: https://wordpress.com/plugins/setup
+-- DIFF_A:   									'https://wordpress.com/plugins/setup/' +
+-- DIFF_B: 								href={ getRedirectUrl( 'calypso-plugins-setup', {
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/plugins/setup
+-- SOURCE: calypso-plugins-setup
+-- TARGET: https://wordpress.com/plugins/setup
+-- DIFF_A:   											'https://wordpress.com/plugins/setup/' +
+-- DIFF_B: 										href={ getRedirectUrl( 'calypso-plugins-setup', {
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/activity-log
+-- SOURCE: calypso-activity-log
+-- TARGET: https://wordpress.com/activity-log
+-- DIFF_A:   									href={ 'https://wordpress.com/activity-log/' + this.props.siteRawUrl }
+-- DIFF_B: 									href={ getRedirectUrl( 'calypso-activity-log', { site: this.props.siteRawUrl } ) }
+-- [OK] Perfect Match!
+
+-- [ISSUE] Slug calypso-ads-earnings not found in wpcom targets array
+-- ORIG:   https://wordpress.com/ads/earnings
+-- SOURCE: calypso-ads-earnings
+-- TARGET: Not found!
+-- DIFF_A:   												href={ 'https://wordpress.com/ads/earnings/' + this.props.siteRawUrl }
+-- DIFF_B: 												href={ getRedirectUrl( 'calypso-ads-earnings', {
+-- [ISSUE] URLs don't match: https://wordpress.com/ads/earnings -> Not found!
+
+
+-- ORIG:   https://wordpress.com/marketing/traffic
+-- SOURCE: wpcom-marketing-traffic
+-- TARGET: https://wordpress.com/marketing/traffic
+-- DIFF_A:   												href={ 'https://wordpress.com/marketing/traffic/' + this.props.siteRawUrl }
+-- DIFF_B: 												href={ getRedirectUrl( 'wpcom-marketing-traffic', {
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/marketing/traffic
+-- SOURCE: wpcom-marketing-traffic
+-- TARGET: https://wordpress.com/marketing/traffic
+-- DIFF_A:   												href={ 'https://wordpress.com/marketing/traffic/' + this.props.siteRawUrl }
+-- DIFF_B: 												href={ getRedirectUrl( 'wpcom-marketing-traffic', {
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/themes/premium
+-- SOURCE: calypso-themes-premium
+-- TARGET: https://wordpress.com/themes/premium
+-- DIFF_A:   										href={ 'https://wordpress.com/themes/premium/' + this.props.siteRawUrl }
+-- DIFF_B: 										href={ getRedirectUrl( 'calypso-themes-premium', {
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/posts
+-- SOURCE: calypso-edit-posts
+-- TARGET: https://wordpress.com/posts
+-- DIFF_A:   												href={ 'https://wordpress.com/posts/' + this.props.siteRawUrl }
+-- DIFF_B: 												href={ getRedirectUrl( 'calypso-edit-posts', {
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/settings/security
+-- SOURCE: calypso-settings-security
+-- TARGET: https://wordpress.com/settings/security
+-- DIFF_A:   									href={ 'https://wordpress.com/settings/security/' + this.props.siteRawUrl }
+-- DIFF_B: 									href={ getRedirectUrl( 'calypso-settings-security', {
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/themes
+-- SOURCE: calypso-themes
+-- TARGET: https://wordpress.com/themes
+-- DIFF_A:   									href={ 'https://wordpress.com/themes/' + this.props.siteRawUrl }
+-- DIFF_B: 									href={ getRedirectUrl( 'calypso-themes', { site: this.props.siteRawUrl } ) }
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/marketing/connections
+-- SOURCE: wpcom-marketing-connections
+-- TARGET: https://wordpress.com/marketing/connections
+-- DIFF_A:   									href={ 'https://wordpress.com/marketing/connections/' + this.props.siteRawUrl }
+-- DIFF_B: 									href={ getRedirectUrl( 'wpcom-marketing-connections', {
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/activity-log
+-- SOURCE: calypso-activity-log
+-- TARGET: https://wordpress.com/activity-log
+-- DIFF_A:   									href={ 'https://wordpress.com/activity-log/' + this.props.siteRawUrl }
+-- DIFF_B: 									href={ getRedirectUrl( 'calypso-activity-log', { site: this.props.siteRawUrl } ) }
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support
+-- SOURCE: jetpack-support
+-- TARGET: https://jetpack.com/support
+-- DIFF_A:   									href="https://jetpack.com/support/"
+-- DIFF_B: 									href={ getRedirectUrl( 'jetpack-support' ) }
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/my-plan/my-plan-header/checklist-cta.js
+[OK] Diffs count matches 
+-- ORIG:   https://wordpress.com/plans/my-plan
+-- SOURCE: wpcom-plans-my-plan
+-- TARGET: https://wordpress.com/plans/my-plan
+-- DIFF_A:   				href={ `https://wordpress.com/plans/my-plan/${ siteSlug }?checklist` }
+-- DIFF_B: 				href={ getRedirectUrl( 'wpcom-plans-my-plan', { site: siteSlug, query: 'checklist' } ) }
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/my-plan/my-plan-header/checklist-progress-card/index.js
+[OK] Diffs count matches 
+-- ORIG:   https://wordpress.com/plans/my-plan
+-- SOURCE: wpcom-plans-my-plan
+-- TARGET: https://wordpress.com/plans/my-plan
+-- DIFF_A:   								href={ `https://wordpress.com/plans/my-plan/${ siteSlug }` }
+-- DIFF_B: 								href={ getRedirectUrl( 'wpcom-plans-my-plan', { site: siteSlug } ) }
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/performance/media.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/videopress
+-- SOURCE: jetpack-support-videopress
+-- TARGET: https://jetpack.com/support/videopress
+-- DIFF_A:   					link: 'https://jetpack.com/support/videopress/',
+-- DIFF_B: 					link: getRedirectUrl( 'jetpack-support-videopress' ),
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/performance/search.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/search
+-- SOURCE: jetpack-support-search
+-- TARGET: https://jetpack.com/support/search
+-- DIFF_A:   					link: 'https://jetpack.com/support/search',
+-- DIFF_B: 					link: getRedirectUrl( 'jetpack-support-search' ),
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/performance/speed-up-site.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/site-accelerator
+-- SOURCE: jetpack-support-site-accelerator
+-- TARGET: https://jetpack.com/support/site-accelerator
+-- DIFF_A:   								link: 'http://jetpack.com/support/site-accelerator/',
+-- DIFF_B: 								link: getRedirectUrl( 'jetpack-support-site-accelerator' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/lazy-images
+-- SOURCE: jetpack-support-lazy-images
+-- TARGET: https://jetpack.com/support/lazy-images
+-- DIFF_A:   								link: 'https://jetpack.com/support/lazy-images/',
+-- DIFF_B: 								link: getRedirectUrl( 'jetpack-support-lazy-images' ),
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/plans/plan-grid.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://wordpress.com/plans/my-plan
+-- SOURCE: wpcom-plans-my-plan
+-- TARGET: https://wordpress.com/plans/my-plan
+-- DIFF_A:   		const myPlanUrl = `https://wordpress.com/plans/my-plan/${ this.props.siteRawUrl }`;
+-- DIFF_B: 		const myPlanUrl = getRedirectUrl( 'wpcom-plans-my-plan', { site: this.props.siteRawUrl } );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/plans
+-- SOURCE: wpcom-plans
+-- TARGET: https://wordpress.com/plans
+-- DIFF_A:   		const plansUrl = `https://wordpress.com/plans/${ this.props.siteRawUrl }`;
+-- DIFF_B: 		const plansUrl = getRedirectUrl( 'wpcom-plans', { site: this.props.siteRawUrl } );
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/plans/single-product-components/purchased-product-card.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://wordpress.com/plans/my-plan
+-- SOURCE: wpcom-plans-my-plan
+-- TARGET: https://wordpress.com/plans/my-plan
+-- DIFF_A:   			href={ `https://wordpress.com/plans/my-plan/${ siteRawlUrl }` }
+-- DIFF_B: 			href={ getRedirectUrl( 'wpcom-plans-my-plan', { site: siteRawlUrl } ) }
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/plans/top-button.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://wordpress.com/plans/my-plan
+-- SOURCE: wpcom-plans-my-plan
+-- TARGET: https://wordpress.com/plans/my-plan
+-- DIFF_A:   			? `https://wordpress.com/plans/my-plan/${ siteRawUrl }`
+-- DIFF_B: 			? getRedirectUrl( 'wpcom-plans-my-plan', { site: siteRawUrl } )
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/privacy/index.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://automattic.com/cookies
+-- SOURCE: a8c-cookies
+-- TARGET: https://automattic.com/cookies
+-- DIFF_A:   														href="https://automattic.com/cookies/"
+-- DIFF_B: 														href={ getRedirectUrl( 'a8c-cookies' ) }
+-- [OK] Perfect Match!
+
+-- ORIG:   https://automattic.com/privacy
+-- SOURCE: a8c-privacy
+-- TARGET: https://automattic.com/privacy
+-- DIFF_A:   													href="https://automattic.com/privacy/"
+-- DIFF_B: 													href={ getRedirectUrl( 'a8c-privacy' ) }
+-- [OK] Perfect Match!
+
+-- ORIG:   https://automattic.com/cookies
+-- SOURCE: a8c-cookies
+-- TARGET: https://automattic.com/cookies
+-- DIFF_A:   													href="https://automattic.com/cookies/"
+-- DIFF_B: 													href={ getRedirectUrl( 'a8c-cookies' ) }
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/privacy
+-- SOURCE: jetpack-support-privacy
+-- TARGET: https://jetpack.com/support/privacy
+-- DIFF_A:   													href="https://jetpack.com/support/privacy"
+-- DIFF_B: 													href={ getRedirectUrl( 'jetpack-support-privacy' ) }
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/pro-status/index.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://dashboard.vaultpress.com
+-- SOURCE: vaultpress-dashboard
+-- TARGET: https://dashboard.vaultpress.com
+-- DIFF_A:   				actionUrl = 'https://dashboard.vaultpress.com/';
+-- DIFF_B: 				actionUrl = getRedirectUrl( 'vaultpress-dashboard' );
+-- [OK] Perfect Match!
+
+-- [ISSUE] Slug jetpack-plugins-setup not found in wpcom targets array
+-- ORIG:   https://wordpress.com/plugins/setup
+-- SOURCE: jetpack-plugins-setup
+-- TARGET: Not found!
+-- DIFF_A:   				href={ `https://wordpress.com/plugins/setup/${ this.props.siteRawUrl }?only=${ feature }` }
+-- DIFF_B: 				href={ getRedirectUrl( 'jetpack-plugins-setup', {
+-- [ISSUE] URLs don't match: https://wordpress.com/plugins/setup -> Not found!
+
+
+
+
+Found in a/_inc/client/security/backups-scan.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://help.vaultpress.com/get-to-know
+-- SOURCE: vaultpress-help-get-to-know
+-- TARGET: https://help.vaultpress.com/get-to-know
+-- DIFF_A:   						link: 'https://help.vaultpress.com/get-to-know/',
+-- DIFF_B: 						link: getRedirectUrl( 'vaultpress-help-get-to-know' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/settings/security
+-- SOURCE: calypso-settings-security
+-- TARGET: https://wordpress.com/settings/security
+-- DIFF_A:   					url: 'https://wordpress.com/settings/security/' + siteRawUrl,
+-- DIFF_B: 					url: getRedirectUrl( 'calypso-settings-security', { site: siteRawUrl } ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/activity-log
+-- SOURCE: calypso-activity-log
+-- TARGET: https://wordpress.com/activity-log
+-- DIFF_A:   					url: 'https://wordpress.com/activity-log/' + siteRawUrl,
+-- DIFF_B: 					url: getRedirectUrl( 'calypso-activity-log', { site: siteRawUrl } ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://dashboard.vaultpress.com
+-- SOURCE: vaultpress-dashboard
+-- TARGET: https://dashboard.vaultpress.com
+-- DIFF_A:   								components: { a: <a href="https://dashboard.vaultpress.com/" /> },
+-- DIFF_B: 								components: { a: <a href={ getRedirectUrl( 'vaultpress-dashboard' ) } /> },
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support
+-- SOURCE: jetpack-support
+-- TARGET: https://jetpack.com/support
+-- DIFF_A:   								components: { a: <a href="https://jetpack.com/support" /> },
+-- DIFF_B: 								components: { a: <a href={ getRedirectUrl( 'jetpack-support' ) } /> },
+-- [OK] Perfect Match!
+
+-- ORIG:   https://help.vaultpress.com/get-to-know
+-- SOURCE: vaultpress-help-get-to-know
+-- TARGET: https://help.vaultpress.com/get-to-know
+-- DIFF_A:   							link: 'https://help.vaultpress.com/get-to-know/',
+-- DIFF_B: 							link: getRedirectUrl( 'vaultpress-help-get-to-know' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://dashboard.vaultpress.com
+-- SOURCE: vaultpress-dashboard
+-- TARGET: https://dashboard.vaultpress.com
+-- DIFF_A:   							href="https://dashboard.vaultpress.com/"
+-- DIFF_B: 							href={ getRedirectUrl( 'vaultpress-dashboard' ) }
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/security/jetpack-backup.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/backups
+-- SOURCE: jetpack-support-backup
+-- TARGET: https://jetpack.com/support/backup
+-- DIFF_A:   					link: 'https://jetpack.com/support/backups/',
+-- DIFF_B: 					link: getRedirectUrl( 'jetpack-support-backup' ),
+-- [ISSUE] URLs don't match: https://jetpack.com/support/backups -> https://jetpack.com/support/backup
+
+
+-- ORIG:   https://wordpress.com/settings/security
+-- SOURCE: calypso-settings-security
+-- TARGET: https://wordpress.com/settings/security
+-- DIFF_A:   					url: 'https://wordpress.com/settings/security/' + siteRawUrl,
+-- DIFF_B: 					url: getRedirectUrl( 'calypso-settings-security', { site: siteRawUrl } ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/activity-log
+-- SOURCE: calypso-activity-log
+-- TARGET: https://wordpress.com/activity-log
+-- DIFF_A:   					url: 'https://wordpress.com/activity-log/' + siteRawUrl,
+-- DIFF_B: 					url: getRedirectUrl( 'calypso-activity-log', { site: siteRawUrl } ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/backups
+-- SOURCE: jetpack-support-backup
+-- TARGET: https://jetpack.com/support/backup
+-- DIFF_A:   							link: 'https://jetpack.com/support/backups/',
+-- DIFF_B: 							link: getRedirectUrl( 'jetpack-support-backup' ),
+-- [ISSUE] URLs don't match: https://jetpack.com/support/backups -> https://jetpack.com/support/backup
+
+
+
+
+Found in a/_inc/client/security/manage-plugins.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://wordpress.com/plugins/manage
+-- SOURCE: calypso-plugins-manage
+-- TARGET: https://wordpress.com/plugins/manage
+-- DIFF_A:   					href={ 'https://wordpress.com/plugins/manage/' + this.props.siteRawUrl }
+-- DIFF_B: 					href={ getRedirectUrl( 'calypso-plugins-manage', { site: this.props.siteRawUrl } ) }
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/security/monitor.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/monitor
+-- SOURCE: jetpack-support-monitor
+-- TARGET: https://jetpack.com/support/monitor
+-- DIFF_A:   							link: 'https://jetpack.com/support/monitor/',
+-- DIFF_B: 							link: getRedirectUrl( 'jetpack-support-monitor' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/settings/security
+-- SOURCE: calypso-settings-security
+-- TARGET: https://wordpress.com/settings/security
+-- DIFF_A:   							href={ 'https://wordpress.com/settings/security/' + this.props.siteRawUrl }
+-- DIFF_B: 							href={ getRedirectUrl( 'calypso-settings-security', {
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/security/protect.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/protect
+-- SOURCE: jetpack-support-protect
+-- TARGET: https://jetpack.com/support/protect
+-- DIFF_A:   								link: 'https://jetpack.com/support/protect/',
+-- DIFF_B: 								link: getRedirectUrl( 'jetpack-support-protect' ),
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/security/sso.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/sso
+-- SOURCE: jetpack-support-sso
+-- TARGET: https://jetpack.com/support/sso
+-- DIFF_A:   							link: 'https://jetpack.com/support/sso/',
+-- DIFF_B: 							link: getRedirectUrl( 'jetpack-support-sso' ),
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/sharing/likes.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/likes
+-- SOURCE: jetpack-support-likes
+-- TARGET: https://jetpack.com/support/likes
+-- DIFF_A:   							link: 'https://jetpack.com/support/likes/',
+-- DIFF_B: 							link: getRedirectUrl( 'jetpack-support-likes' ),
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/sharing/publicize.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://wordpress.com/marketing/connections
+-- SOURCE: wpcom-marketing-connections
+-- TARGET: https://wordpress.com/marketing/connections
+-- DIFF_A:   						href={ 'https://wordpress.com/marketing/connections/' + siteRawUrl }
+-- DIFF_B: 						href={ getRedirectUrl( 'wpcom-marketing-connections', { site: siteRawUrl } ) }
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/publicize
+-- SOURCE: jetpack-support-publicize
+-- TARGET: https://jetpack.com/support/publicize
+-- DIFF_A:   								link: 'https://jetpack.com/support/publicize/',
+-- DIFF_B: 								link: getRedirectUrl( 'jetpack-support-publicize' ),
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/sharing/share-buttons.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://wordpress.com/marketing/sharing-buttons
+-- SOURCE: wpcom-marketing-sharing-buttons
+-- TARGET: https://wordpress.com/marketing/sharing-buttons
+-- DIFF_A:   							href={ 'https://wordpress.com/marketing/sharing-buttons/' + siteRawUrl }
+-- DIFF_B: 							href={ getRedirectUrl( 'wpcom-marketing-sharing-buttons', { site: siteRawUrl } ) }
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/sharing
+-- SOURCE: jetpack-support-sharing
+-- TARGET: https://jetpack.com/support/sharing
+-- DIFF_A:   							link: 'https://jetpack.com/support/sharing/',
+-- DIFF_B: 							link: getRedirectUrl( 'jetpack-support-sharing' ),
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/traffic/ads.jsx
+[!!] Diffs count do not match
+-- [ISSUE] URLs and function calls count dont match
+
+
+Found in a/_inc/client/traffic/google-analytics.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/google-analytics
+-- SOURCE: jetpack-support-google-analytics
+-- TARGET: https://jetpack.com/support/google-analytics
+-- DIFF_A:   							link: 'https://jetpack.com/support/google-analytics/',
+-- DIFF_B: 							link: getRedirectUrl( 'jetpack-support-google-analytics' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/stats/day
+-- SOURCE: calypso-stats-day
+-- TARGET: https://wordpress.com/stats/day
+-- DIFF_A:   									a: <a href={ 'https://wordpress.com/stats/day/' + this.props.siteRawUrl } />,
+-- DIFF_B: 											href={ getRedirectUrl( 'calypso-stats-day', {
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/traffic/index.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://wordpress.com/stats/ads/day
+-- SOURCE: calypso-stats-ads-day
+-- TARGET: https://wordpress.com/stats/ads/day
+-- DIFF_A:   						configureUrl={ 'https://wordpress.com/stats/ads/day/' + this.props.siteRawUrl }
+-- DIFF_B: 						configureUrl={ getRedirectUrl( 'calypso-stats-ads-day', {
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/marketing/traffic
+-- SOURCE: wpcom-marketing-traffic
+-- TARGET: https://wordpress.com/marketing/traffic
+-- DIFF_A:   							'https://wordpress.com/marketing/traffic/' + this.props.siteRawUrl + '#seo'
+-- DIFF_B: 						configureUrl={ getRedirectUrl( 'wpcom-marketing-traffic', {
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/marketing/traffic
+-- SOURCE: wpcom-marketing-traffic
+-- TARGET: https://wordpress.com/marketing/traffic
+-- DIFF_A:   							'https://wordpress.com/marketing/traffic/' + this.props.siteRawUrl + '#analytics'
+-- DIFF_B: 						configureUrl={ getRedirectUrl( 'wpcom-marketing-traffic', {
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/traffic/related-posts.jsx
+[!!] Diffs count do not match
+-- [ISSUE] URLs and function calls count dont match
+
+
+Found in a/_inc/client/traffic/seo.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/seo-tools
+-- SOURCE: jetpack-support-seo-tools
+-- TARGET: https://jetpack.com/support/seo-tools
+-- DIFF_A:   						link: 'https://jetpack.com/support/seo-tools/',
+-- DIFF_B: 						link: getRedirectUrl( 'jetpack-support-seo-tools' ),
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/traffic/shortlinks.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/shortlinks
+-- SOURCE: jetpack-support-shortlinks
+-- TARGET: https://jetpack.com/support/shortlinks
+-- DIFF_A:   						link: 'https://jetpack.com/support/shortlinks/',
+-- DIFF_B: 						link: getRedirectUrl( 'jetpack-support-shortlinks' ),
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/traffic/site-stats.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/wordpress-com-stats
+-- SOURCE: jetpack-support-wordpress-com-stats
+-- TARGET: https://jetpack.com/support/wordpress-com-stats
+-- DIFF_A:   														href="https://jetpack.com/support/wordpress-com-stats/"
+-- DIFF_B: 														href={ getRedirectUrl( 'jetpack-support-wordpress-com-stats' ) }
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/wordpress-com-stats
+-- SOURCE: jetpack-support-wordpress-com-stats
+-- TARGET: https://jetpack.com/support/wordpress-com-stats
+-- DIFF_A:   							link: 'https://jetpack.com/support/wordpress-com-stats/',
+-- DIFF_B: 							link: getRedirectUrl( 'jetpack-support-wordpress-com-stats' ),
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/traffic/sitemaps.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/sitemaps
+-- SOURCE: jetpack-support-sitemaps
+-- TARGET: https://jetpack.com/support/sitemaps
+-- DIFF_A:   						link: 'https://jetpack.com/support/sitemaps/',
+-- DIFF_B: 						link: getRedirectUrl( 'jetpack-support-sitemaps' ),
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/traffic/verification-services.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/site-verification-tools
+-- SOURCE: jetpack-support-site-verification-tools
+-- TARGET: https://jetpack.com/support/site-verification-tools
+-- DIFF_A:   						link: 'https://jetpack.com/support/site-verification-tools',
+-- DIFF_B: 						link: getRedirectUrl( 'jetpack-support-site-verification-tools' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/site-verification-tools
+-- SOURCE: jetpack-support-site-verification-tools
+-- TARGET: https://jetpack.com/support/site-verification-tools
+-- DIFF_A:   									support: <a href="https://jetpack.com/support/site-verification-tools/" />,
+-- DIFF_B: 										<a href={ getRedirectUrl( 'jetpack-support-site-verification-tools' ) } />
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/writing/composing.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/copy-post-2
+-- SOURCE: jetpack-support-copy-post-2
+-- TARGET: https://jetpack.com/support/copy-post-2
+-- DIFF_A:   						link: 'https://jetpack.com/support/copy-post-2/',
+-- DIFF_B: 						link: getRedirectUrl( 'jetpack-support-copy-post-2' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/markdown
+-- SOURCE: jetpack-support-markdown
+-- TARGET: https://jetpack.com/support/markdown
+-- DIFF_A:   						link: 'https://jetpack.com/support/markdown/',
+-- DIFF_B: 						link: getRedirectUrl( 'jetpack-support-markdown' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/beautiful-math-with-latex
+-- SOURCE: jetpack-support-beautiful-math-with-latex
+-- TARGET: https://jetpack.com/support/beautiful-math-with-latex
+-- DIFF_A:   						link: 'https://jetpack.com/support/beautiful-math-with-latex/',
+-- DIFF_B: 						link: getRedirectUrl( 'jetpack-support-beautiful-math-with-latex' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/shortcode-embeds
+-- SOURCE: jetpack-support-shortcode-embeds
+-- TARGET: https://jetpack.com/support/shortcode-embeds
+-- DIFF_A:   						link: 'https://jetpack.com/support/shortcode-embeds/',
+-- DIFF_B: 						link: getRedirectUrl( 'jetpack-support-shortcode-embeds' ),
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/writing/custom-content-types.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/custom-content-types
+-- SOURCE: jetpack-support-custom-content-types
+-- TARGET: https://jetpack.com/support/custom-content-types
+-- DIFF_A:   						link: 'https://jetpack.com/support/custom-content-types/',
+-- DIFF_B: 						link: getRedirectUrl( 'jetpack-support-custom-content-types' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/custom-content-types
+-- SOURCE: jetpack-support-custom-content-types
+-- TARGET: https://jetpack.com/support/custom-content-types
+-- DIFF_A:   						link: 'https://jetpack.com/support/custom-content-types/',
+-- DIFF_B: 						link: getRedirectUrl( 'jetpack-support-custom-content-types' ),
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/writing/masterbar.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/masterbar
+-- SOURCE: jetpack-support-masterbar
+-- TARGET: https://jetpack.com/support/masterbar
+-- DIFF_A:   							link: 'https://jetpack.com/support/masterbar/',
+-- DIFF_B: 							link: getRedirectUrl( 'jetpack-support-masterbar' ),
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/writing/post-by-email.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/post-by-email
+-- SOURCE: jetpack-support-post-by-email
+-- TARGET: https://jetpack.com/support/post-by-email
+-- DIFF_A:   						link: 'https://jetpack.com/support/post-by-email/',
+-- DIFF_B: 						link: getRedirectUrl( 'jetpack-support-post-by-email' ),
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/writing/theme-enhancements.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/infinite-scroll
+-- SOURCE: jetpack-support-infinite-scroll
+-- TARGET: https://jetpack.com/support/infinite-scroll
+-- DIFF_A:   							link: 'https://jetpack.com/support/infinite-scroll',
+-- DIFF_B: 							link: getRedirectUrl( 'jetpack-support-infinite-scroll' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/custom-css
+-- SOURCE: jetpack-support-custom-css
+-- TARGET: https://jetpack.com/support/custom-css
+-- DIFF_A:   							link: 'https://jetpack.com/support/custom-css/',
+-- DIFF_B: 							link: getRedirectUrl( 'jetpack-support-custom-css' ),
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/writing/widgets.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/extra-sidebar-widgets
+-- SOURCE: jetpack-support-extra-sidebar-widgets
+-- TARGET: https://jetpack.com/support/extra-sidebar-widgets
+-- DIFF_A:   							link: 'https://jetpack.com/support/extra-sidebar-widgets/',
+-- DIFF_B: 							link: getRedirectUrl( 'jetpack-support-extra-sidebar-widgets' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/widget-visibility
+-- SOURCE: jetpack-support-widget-visibility
+-- TARGET: https://jetpack.com/support/widget-visibility
+-- DIFF_A:   							link: 'https://jetpack.com/support/widget-visibility/',
+-- DIFF_B: 							link: getRedirectUrl( 'jetpack-support-widget-visibility' ),
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/client/writing/writing-media.jsx
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/carousel
+-- SOURCE: jetpack-support-carousel
+-- TARGET: https://jetpack.com/support/carousel
+-- DIFF_A:   						link: 'https://jetpack.com/support/carousel',
+-- DIFF_B: 						link: getRedirectUrl( 'jetpack-support-carousel' ),
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/lib/admin-pages/class.jetpack-admin-page.php
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com
+-- SOURCE: jetpack
+-- TARGET: https://jetpack.com
+-- DIFF_A:   			: 'https://jetpack.com';
+-- DIFF_B: 			: \Jetpack::build_redirect_url( 'jetpack' );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://automattic.com/privacy
+-- SOURCE: a8c-privacy
+-- TARGET: https://automattic.com/privacy
+-- DIFF_A:   			: 'https://automattic.com/privacy/';
+-- DIFF_B: 			: \Jetpack::build_redirect_url( 'a8c-privacy' );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com
+-- SOURCE: jetpack
+-- TARGET: https://jetpack.com
+-- DIFF_A:   						<a href="https://jetpack.com" target="_blank" rel="noopener noreferrer" class="jp-footer__link" title="<?php esc_html_e( 'Jetpack version', 'jetpack' ); ?>">Jetpack <?php echo JETPACK__VERSION; ?></a>
+-- DIFF_B: 						<a href="<?php echo esc_url( Jetpack::build_redirect_url( 'jetpack' ) ); ?>" target="_blank" rel="noopener noreferrer" class="jp-footer__link" title="<?php esc_html_e( 'Jetpack version', 'jetpack' ); ?>">Jetpack <?php echo esc_html( JETPACK__VERSION ); ?></a>
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/tos
+-- SOURCE: wpcom-tos
+-- TARGET: https://wordpress.com/tos
+-- DIFF_A:   						<a href="https://wordpress.com/tos/" target="_blank" rel="noopener noreferrer" title="<?php esc_html__( 'WordPress.com Terms of Service', 'jetpack' ); ?>" class="jp-footer__link"><?php echo esc_html_x( 'Terms', 'Navigation item', 'jetpack' ); ?></a>
+-- DIFF_B: 						<a href="<?php echo esc_url( Jetpack::build_redirect_url( 'wpcom-tos' ) ); ?>" target="_blank" rel="noopener noreferrer" title="<?php esc_html__( 'WordPress.com Terms of Service', 'jetpack' ); ?>" class="jp-footer__link"><?php echo esc_html_x( 'Terms', 'Navigation item', 'jetpack' ); ?></a>
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/lib/core-api/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-mailchimp.php
+[!!] Diffs count do not match
+-- [ISSUE] URLs and function calls count dont match
+
+
+Found in a/_inc/lib/debugger/class-jetpack-cxn-tests.php
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/contact-support/beta-group
+-- SOURCE: jetpack-contact-support-beta-group
+-- TARGET: https://jetpack.com/contact-support/beta-group
+-- DIFF_A:   			? 'https://jetpack.com/contact-support/beta-group/'
+-- DIFF_B: 			? \Jetpack::build_redirect_url( 'jetpack-contact-support-beta-group' )
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/contact-support
+-- SOURCE: jetpack-contact-support
+-- TARGET: https://jetpack.com/contact-support
+-- DIFF_A:   			: 'https://jetpack.com/contact-support/';
+-- DIFF_B: 			: \Jetpack::build_redirect_url( 'jetpack-contact-support' );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/reconnecting-reinstalling-jetpack
+-- SOURCE: jetpack-support-reconnecting-reinstalling-jetpack
+-- TARGET: https://jetpack.com/support/reconnecting-reinstalling-jetpack
+-- DIFF_A:   					'action'            => 'https://jetpack.com/support/reconnecting-reinstalling-jetpack/',
+-- DIFF_B: 					'action'            => \Jetpack::build_redirect_url( 'jetpack-support-reconnecting-reinstalling-jetpack' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/reconnecting-reinstalling-jetpack
+-- SOURCE: jetpack-support-reconnecting-reinstalling-jetpack
+-- TARGET: https://jetpack.com/support/reconnecting-reinstalling-jetpack
+-- DIFF_A:   					'action'            => 'https://jetpack.com/support/reconnecting-reinstalling-jetpack/',
+-- DIFF_B: 					'action'            => \Jetpack::build_redirect_url( 'jetpack-support-reconnecting-reinstalling-jetpack' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/server-requirements
+-- SOURCE: jetpack-support-server-requirements
+-- TARGET: https://jetpack.com/support/server-requirements
+-- DIFF_A:   					'action'            => 'https://jetpack.com/support/server-requirements/',
+-- DIFF_B: 					'action'            => \Jetpack::build_redirect_url( 'jetpack-support-server-requirements' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/contact-support
+-- SOURCE: jetpack-contact-support
+-- TARGET: https://jetpack.com/contact-support
+-- DIFF_A:   						'action'            => 'https://jetpack.com/contact-support/',
+-- DIFF_B: 						'action'            => \Jetpack::build_redirect_url( 'jetpack-contact-support' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/debug
+-- SOURCE: jetpack-support-debug
+-- TARGET: https://jetpack.com/support/debug
+-- DIFF_A:   						esc_url( add_query_arg( 'url', rawurlencode( site_url() ), 'https://jetpack.com/support/debug/' ) )
+-- DIFF_B: 						esc_url( \Jetpack::build_redirect_url( 'jetpack-support-debug' ) )
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/lib/debugger/class-jetpack-debug-data.php
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/contact-support/beta-group
+-- SOURCE: jetpack-contact-support-beta-group
+-- TARGET: https://jetpack.com/contact-support/beta-group
+-- DIFF_A:   			? 'https://jetpack.com/contact-support/beta-group/'
+-- DIFF_B: 			? \Jetpack::build_redirect_url( 'jetpack-contact-support-beta-group' )
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/contact-support
+-- SOURCE: jetpack-contact-support
+-- TARGET: https://jetpack.com/contact-support
+-- DIFF_A:   			: 'https://jetpack.com/contact-support/';
+-- DIFF_B: 			: \Jetpack::build_redirect_url( 'jetpack-contact-support' );
+-- [OK] Perfect Match!
+
+
+
+Found in a/_inc/lib/debugger/class-jetpack-debugger.php
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/contact-support/beta-group
+-- SOURCE: jetpack-contact-support-beta-group
+-- TARGET: https://jetpack.com/contact-support/beta-group
+-- DIFF_A:   			? 'https://jetpack.com/contact-support/beta-group/'
+-- DIFF_B: 			? \Jetpack::build_redirect_url( 'jetpack-contact-support-beta-group' )
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/contact-support
+-- SOURCE: jetpack-contact-support
+-- TARGET: https://jetpack.com/contact-support
+-- DIFF_A:   			: 'https://jetpack.com/contact-support/';
+-- DIFF_B: 			: \Jetpack::build_redirect_url( 'jetpack-contact-support' );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/getting-started-with-jetpack/known-issues
+-- SOURCE: jetpack-contact-support-known-issues
+-- TARGET: https://jetpack.com/contact-support/known-issues
+-- DIFF_A:   							'https://jetpack.com/support/getting-started-with-jetpack/known-issues/',
+-- DIFF_B: 							esc_url( \Jetpack::build_redirect_url( 'jetpack-contact-support-known-issues' ) ),
+-- [ISSUE] URLs don't match: https://jetpack.com/support/getting-started-with-jetpack/known-issues -> https://jetpack.com/contact-support/known-issues
+
+
+-- ORIG:   https://jetpack.com/support/getting-started-with-jetpack/known-issues
+-- SOURCE: jetpack-contact-support-known-issues
+-- TARGET: https://jetpack.com/contact-support/known-issues
+-- DIFF_A:   							'https://jetpack.com/support/getting-started-with-jetpack/known-issues/',
+-- DIFF_B: 							esc_url( \Jetpack::build_redirect_url( 'jetpack-contact-support-known-issues' ) ),
+-- [ISSUE] URLs don't match: https://jetpack.com/support/getting-started-with-jetpack/known-issues -> https://jetpack.com/contact-support/known-issues
+
+
+-- ORIG:   https://jetpack.com/support
+-- SOURCE: jetpack-contact-support
+-- TARGET: https://jetpack.com/contact-support
+-- DIFF_A:   							'https://jetpack.com/support/',
+-- DIFF_B: 							esc_url( \Jetpack::build_redirect_url( 'jetpack-contact-support' ) ),
+-- [ISSUE] URLs don't match: https://jetpack.com/support -> https://jetpack.com/contact-support
+
+
+-- ORIG:   https://wordpress.org/support/plugin/jetpack
+-- SOURCE: wporg-support-plugin-jetpack
+-- TARGET: https://wordpress.org/support/plugin/jetpack
+-- DIFF_A:   							'https://wordpress.org/support/plugin/jetpack'
+-- DIFF_B: 							esc_url( \Jetpack::build_redirect_url( 'wporg-support-plugin-jetpack' ) )
+-- [OK] Perfect Match!
+
+-- [ISSUE] Slug support-development-mode not found in wpcom targets array
+-- ORIG:   https://jetpack.com/support/development-mode
+-- SOURCE: support-development-mode
+-- TARGET: Not found!
+-- DIFF_A:   							'https://jetpack.com/support/development-mode/'
+-- DIFF_B: 							esc_url( \Jetpack::build_redirect_url( 'support-development-mode' ) )
+-- [ISSUE] URLs don't match: https://jetpack.com/support/development-mode -> Not found!
+
+
+
+
+Found in a/_inc/lib/functions.wp-notify.php
+[!!] Diffs count do not match
+-- [ISSUE] URLs and function calls count dont match
+
+
+Found in a/class.jetpack-idc.php
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/safe-mode
+-- SOURCE: jetpack-support-safe-mode
+-- TARGET: https://jetpack.com/support/safe-mode
+-- DIFF_A:   	const SAFE_MODE_DOC_LINK = 'https://jetpack.com/support/safe-mode';
+-- DIFF_B: 		return \Jetpack::build_redirect_url( 'jetpack-support-safe-mode' );
+-- [OK] Perfect Match!
+
+
+
+Found in a/class.jetpack.php
+[!!] Diffs count do not match
+-- [ISSUE] URLs and function calls count dont match
+
+
+Found in a/extensions/blocks/calendly/edit.js
+[OK] Diffs count matches 
+
+
+Found in a/extensions/blocks/podcast-player/components/header.js
+[OK] Diffs count matches 
+
+
+Found in a/functions.global.php
+[OK] Diffs count matches 
+-- ORIG:   https://wordpress.com/tos
+-- SOURCE: wpcom-tos
+-- TARGET: https://wordpress.com/tos
+-- DIFF_A:   		'https://wordpress.com/tos',
+-- DIFF_B: 		esc_url( \Jetpack::build_redirect_url( 'wpcom-tos' ) ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/what-data-does-jetpack-sync
+-- SOURCE: jetpack-support-what-data-does-jetpack-sync
+-- TARGET: https://jetpack.com/support/what-data-does-jetpack-sync
+-- DIFF_A:   		'https://jetpack.com/support/what-data-does-jetpack-sync'
+-- DIFF_B: 		esc_url( \Jetpack::build_redirect_url( 'jetpack-support-what-data-does-jetpack-sync' ) )
+-- [OK] Perfect Match!
+
+
+
+Found in a/modules/calypsoify/class.jetpack-calypsoify.php
+[OK] Diffs count matches 
+-- ORIG:   https://wordpress.com/stats/day
+-- SOURCE: calypso-stats-day
+-- TARGET: https://wordpress.com/stats/day
+-- DIFF_A:   		<a href="<?php echo esc_url( 'https://wordpress.com/stats/day/' . Jetpack::build_raw_urls( home_url() ) ); ?>" id="calypso-sidebar-header">
+-- DIFF_B: 		$stats_day_url = Jetpack::build_redirect_url( 'calypso-stats-day' );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/stats/day
+-- SOURCE: calypso-stats-day
+-- TARGET: https://wordpress.com/stats/day
+-- DIFF_A:   		$my_sites_node->href = 'https://wordpress.com/stats/day/' . Jetpack::build_raw_urls( home_url() );
+-- DIFF_B: 		$my_sites_node->href = Jetpack::build_redirect_url( 'calypso-stats-day' );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/read
+-- SOURCE: calypso-read
+-- TARGET: https://wordpress.com/read
+-- DIFF_A:   		$reader_node->href = 'https://wordpress.com/read';
+-- DIFF_B: 		$reader_node->href = Jetpack::build_redirect_url( 'calypso-read' );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/me
+-- SOURCE: calypso-me
+-- TARGET: https://wordpress.com/me
+-- DIFF_A:   		$me_node->href = 'https://wordpress.com/me';
+-- DIFF_B: 		$me_node->href = Jetpack::build_redirect_url( 'calypso-me' );
+-- [OK] Perfect Match!
+
+
+
+Found in a/modules/custom-content-types.php
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/custom-content-types
+-- SOURCE: jetpack-support-custom-content-types
+-- TARGET: https://jetpack.com/support/custom-content-types
+-- DIFF_A:   		<a target="_blank" href="https://jetpack.com/support/custom-content-types/"><?php esc_html_e( 'Learn More', 'jetpack' ); ?></a>
+-- DIFF_B: 		<a target="_blank" href="<?php echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-custom-content-types' ) ); ?>"><?php esc_html_e( 'Learn More', 'jetpack' ); ?></a>
+-- [OK] Perfect Match!
+
+
+
+Found in a/modules/custom-css/custom-css.php
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/custom-css
+-- SOURCE: jetpack-support-custom-css
+-- TARGET: https://jetpack.com/support/custom-css
+-- DIFF_A:   						apply_filters( 'safecss_limit_width_link', 'https://jetpack.com/support/custom-css/#limited-width' )
+-- DIFF_B: 							apply_filters( 'safecss_limit_width_link', \Jetpack::build_redirect_url( 'jetpack-support-custom-css', array( 'anchor' => 'limited-width' ) ) )
+-- [OK] Perfect Match!
+
+
+
+Found in a/modules/infinite-scroll/infinity.php
+[OK] Diffs count matches 
+-- ORIG:   https://wordpress.com/settings/writing
+-- SOURCE: calypso-settings-writing
+-- TARGET: https://wordpress.com/settings/writing
+-- DIFF_A:   			'<a href="' . esc_url( 'https://wordpress.com/settings/writing/' . $details->domain ) . '">',
+-- DIFF_B: 		$writing_url = Jetpack::build_redirect_url( 'calypso-settings-writing', array( 'site' => $details->domain ) );
+-- [OK] Perfect Match!
+
+
+
+Found in a/modules/masterbar/masterbar.php
+[OK] Diffs count matches 
+-- ORIG:   https://wordpress.com/read
+-- SOURCE: calypso-read
+-- TARGET: https://wordpress.com/read
+-- DIFF_A:   				'url'   => 'https://wordpress.com/read',
+-- DIFF_B: 				'url'   => \Jetpack::build_redirect_url( 'calypso-read' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/following/edit
+-- SOURCE: calypso-following-edit
+-- TARGET: https://wordpress.com/following/edit
+-- DIFF_A:   				'url'   => 'https://wordpress.com/following/edit',
+-- DIFF_B: 				'url'   => \Jetpack::build_redirect_url( 'calypso-following-edit' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/discover
+-- SOURCE: calypso-discover
+-- TARGET: https://wordpress.com/discover
+-- DIFF_A:   				'href'   => 'https://wordpress.com/discover',
+-- DIFF_B: 				'href'   => \Jetpack::build_redirect_url( 'calypso-discover' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/read/search
+-- SOURCE: calypso-read-search
+-- TARGET: https://wordpress.com/read/search
+-- DIFF_A:   				'href'   => 'https://wordpress.com/read/search',
+-- DIFF_B: 				'href'   => \Jetpack::build_redirect_url( 'calypso-read-search' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/recommendations
+-- SOURCE: calypso-recommendations
+-- TARGET: https://wordpress.com/recommendations
+-- DIFF_A:   				'href'   => 'https://wordpress.com/recommendations',
+-- DIFF_B: 				'href'   => \Jetpack::build_redirect_url( 'calypso-recommendations' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/activities/likes
+-- SOURCE: calypso-activities-likes
+-- TARGET: https://wordpress.com/activities/likes
+-- DIFF_A:   				'href'   => 'https://wordpress.com/activities/likes',
+-- DIFF_B: 				'href'   => \Jetpack::build_redirect_url( 'calypso-activities-likes' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/me/account
+-- SOURCE: calypso-me-account
+-- TARGET: https://wordpress.com/me/account
+-- DIFF_A:   		$settings_url = 'https://wordpress.com/me/account';
+-- DIFF_B: 		$settings_url = \Jetpack::build_redirect_url( 'calypso-me-account' );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/me
+-- SOURCE: calypso-me
+-- TARGET: https://wordpress.com/me
+-- DIFF_A:   				'href'   => 'https://wordpress.com/me',
+-- DIFF_B: 				'href'   => \Jetpack::build_redirect_url( 'calypso-me' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/me/purchases
+-- SOURCE: calypso-me-purchases
+-- TARGET: https://wordpress.com/me/purchases
+-- DIFF_A:   				'href'   => 'https://wordpress.com/me/purchases',
+-- DIFF_B: 				'href'   => \Jetpack::build_redirect_url( 'calypso-me-purchases' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/me/security
+-- SOURCE: calypso-me-security
+-- TARGET: https://wordpress.com/me/security
+-- DIFF_A:   				'href'   => 'https://wordpress.com/me/security',
+-- DIFF_B: 				'href'   => \Jetpack::build_redirect_url( 'calypso-me-security' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/me/notifications
+-- SOURCE: calypso-me-notifications
+-- TARGET: https://wordpress.com/me/notifications
+-- DIFF_A:   				'href'   => 'https://wordpress.com/me/notifications',
+-- DIFF_B: 				'href'   => \Jetpack::build_redirect_url( 'calypso-me-notifications' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/me/get-apps
+-- SOURCE: calypso-me-get-apps
+-- TARGET: https://wordpress.com/me/get-apps
+-- DIFF_A:   				'href'   => 'https://wordpress.com/me/get-apps',
+-- DIFF_B: 				'href'   => \Jetpack::build_redirect_url( 'calypso-me-get-apps' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support
+-- SOURCE: jetpack-support
+-- TARGET: https://jetpack.com/support
+-- DIFF_A:   		$help_link = 'https://jetpack.com/support/';
+-- DIFF_B: 		$help_link = \Jetpack::build_redirect_url( 'jetpack-support' );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/help
+-- SOURCE: wpcom-help
+-- TARGET: https://wordpress.com/help
+-- DIFF_A:   			$help_link = 'https://wordpress.com/help';
+-- DIFF_B: 			$help_link = \Jetpack::build_redirect_url( 'wpcom-help' );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/post
+-- SOURCE: calypso-edit-post
+-- TARGET: https://wordpress.com/post
+-- DIFF_A:   		$blog_post_page = 'https://wordpress.com/post/' . esc_attr( $this->primary_site_slug );
+-- DIFF_B: 		$blog_post_page = \Jetpack::build_redirect_url( 'calypso-edit-post' );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/sites
+-- SOURCE: calypso-sites
+-- TARGET: https://wordpress.com/sites
+-- DIFF_A:   					'href'   => 'https://wordpress.com/sites',
+-- DIFF_B: 					'href'   => \Jetpack::build_redirect_url( 'calypso-sites' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/start
+-- SOURCE: calypso-start
+-- TARGET: https://wordpress.com/start
+-- DIFF_A:   					'href'   => 'https://wordpress.com/start?ref=admin-bar-logged-in',
+-- DIFF_B: 					'href'   => \Jetpack::build_redirect_url( 'calypso-start', array( 'query' => 'ref=admin-bar-logged-in' ) ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/stats
+-- SOURCE: calypso-stats
+-- TARGET: https://wordpress.com/stats
+-- DIFF_A:   					'href'   => 'https://wordpress.com/stats/' . esc_attr( $this->primary_site_slug ),
+-- DIFF_B: 					'href'   => \Jetpack::build_redirect_url( 'calypso-stats' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/activity-log
+-- SOURCE: calypso-activity-log
+-- TARGET: https://wordpress.com/activity-log
+-- DIFF_A:   					'href'   => 'https://wordpress.com/activity-log/' . esc_attr( $this->primary_site_slug ),
+-- DIFF_B: 					'href'   => \Jetpack::build_redirect_url( 'calypso-activity-log' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/plans
+-- SOURCE: wpcom-plans
+-- TARGET: https://wordpress.com/plans
+-- DIFF_A:   			$plans_url = 'https://wordpress.com/plans/' . esc_attr( $this->primary_site_slug );
+-- DIFF_B: 			$plans_url = \Jetpack::build_redirect_url( 'wpcom-plans' );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/pages
+-- SOURCE: calypso-edit-pages
+-- TARGET: https://wordpress.com/pages
+-- DIFF_A:   				'url'   => 'https://wordpress.com/pages/' . esc_attr( $this->primary_site_slug ),
+-- DIFF_B: 				'url'   => \Jetpack::build_redirect_url( 'calypso-edit-pages' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/page
+-- SOURCE: calypso-edit-page
+-- TARGET: https://wordpress.com/page
+-- DIFF_A:   				'url'   => 'https://wordpress.com/page/' . esc_attr( $this->primary_site_slug ),
+-- DIFF_B: 				'url'   => \Jetpack::build_redirect_url( 'calypso-edit-page' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/pages
+-- SOURCE: calypso-edit-pages
+-- TARGET: https://wordpress.com/pages
+-- DIFF_A:   				'https://wordpress.com/pages/' . esc_attr( $this->primary_site_slug ),
+-- DIFF_B: 				\Jetpack::build_redirect_url( 'calypso-edit-pages' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/posts
+-- SOURCE: calypso-edit-posts
+-- TARGET: https://wordpress.com/posts
+-- DIFF_A:   				'url'   => 'https://wordpress.com/posts/' . esc_attr( $this->primary_site_slug ),
+-- DIFF_B: 				'url'   => \Jetpack::build_redirect_url( 'calypso-edit-posts' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/post
+-- SOURCE: calypso-edit-post
+-- TARGET: https://wordpress.com/post
+-- DIFF_A:   				'url'   => 'https://wordpress.com/post/' . esc_attr( $this->primary_site_slug ),
+-- DIFF_B: 				'url'   => \Jetpack::build_redirect_url( 'calypso-edit-post' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/posts
+-- SOURCE: calypso-edit-posts
+-- TARGET: https://wordpress.com/posts
+-- DIFF_A:   				'https://wordpress.com/posts/' . esc_attr( $this->primary_site_slug ),
+-- DIFF_B: 				\Jetpack::build_redirect_url( 'calypso-edit-posts' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/comments
+-- SOURCE: calypso-comments
+-- TARGET: https://wordpress.com/comments
+-- DIFF_A:   					'href'   => 'https://wordpress.com/comments/' . esc_attr( $this->primary_site_slug ),
+-- DIFF_B: 					'href'   => \Jetpack::build_redirect_url( 'calypso-comments' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/types/jetpack-testimonial
+-- SOURCE: calypso-list-jetpack-testimonial
+-- TARGET: https://wordpress.com/types/jetpack-testimonial
+-- DIFF_A:   					'url'   => 'https://wordpress.com/types/jetpack-testimonial/' . esc_attr( $this->primary_site_slug ),
+-- DIFF_B: 					'url'   => \Jetpack::build_redirect_url( 'calypso-list-jetpack-testimonial' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/edit/jetpack-testimonial
+-- SOURCE: calypso-edit-jetpack-testimonial
+-- TARGET: https://wordpress.com/edit/jetpack-testimonial
+-- DIFF_A:   					'url'   => 'https://wordpress.com/edit/jetpack-testimonial/' . esc_attr( $this->primary_site_slug ),
+-- DIFF_B: 					'url'   => \Jetpack::build_redirect_url( 'calypso-edit-jetpack-testimonial' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/types/jetpack-testimonial
+-- SOURCE: calypso-list-jetpack-testimonial
+-- TARGET: https://wordpress.com/types/jetpack-testimonial
+-- DIFF_A:   					'https://wordpress.com/types/jetpack-testimonial/' . esc_attr( $this->primary_site_slug ),
+-- DIFF_B: 					\Jetpack::build_redirect_url( 'calypso-list-jetpack-testimonial' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/types/jetpack-portfolio
+-- SOURCE: calypso-list-jetpack-portfolio
+-- TARGET: https://wordpress.com/types/jetpack-portfolio
+-- DIFF_A:   					'url'   => 'https://wordpress.com/types/jetpack-portfolio/' . esc_attr( $this->primary_site_slug ),
+-- DIFF_B: 					'url'   => \Jetpack::build_redirect_url( 'calypso-list-jetpack-portfolio' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/edit/jetpack-portfolio
+-- SOURCE: calypso-edit-jetpack-portfolio
+-- TARGET: https://wordpress.com/edit/jetpack-portfolio
+-- DIFF_A:   					'url'   => 'https://wordpress.com/edit/jetpack-portfolio/' . esc_attr( $this->primary_site_slug ),
+-- DIFF_B: 					'url'   => \Jetpack::build_redirect_url( 'calypso-edit-jetpack-portfolio' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/types/jetpack-portfolio
+-- SOURCE: calypso-list-jetpack-portfolio
+-- TARGET: https://wordpress.com/types/jetpack-portfolio
+-- DIFF_A:   					'https://wordpress.com/types/jetpack-portfolio/' . esc_attr( $this->primary_site_slug ),
+-- DIFF_B: 					\Jetpack::build_redirect_url( 'calypso-list-jetpack-portfolio' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/themes
+-- SOURCE: calypso-themes
+-- TARGET: https://wordpress.com/themes
+-- DIFF_A:   					'url'   => 'https://wordpress.com/themes/' . esc_attr( $this->primary_site_slug ),
+-- DIFF_B: 					'url'   => \Jetpack::build_redirect_url( 'calypso-themes' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/sharing
+-- SOURCE: calypso-sharing
+-- TARGET: https://wordpress.com/sharing
+-- DIFF_A:   						'href'   => 'https://wordpress.com/sharing/' . esc_attr( $this->primary_site_slug ),
+-- DIFF_B: 						'href'   => \Jetpack::build_redirect_url( 'calypso-sharing' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/people/team
+-- SOURCE: calypso-people-team
+-- TARGET: https://wordpress.com/people/team
+-- DIFF_A:   					'url'   => 'https://wordpress.com/people/team/' . esc_attr( $this->primary_site_slug ),
+-- DIFF_B: 					'url'   => \Jetpack::build_redirect_url( 'calypso-people-team' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/plugins
+-- SOURCE: calypso-plugins
+-- TARGET: https://wordpress.com/plugins
+-- DIFF_A:   					'url'   => 'https://wordpress.com/plugins/' . esc_attr( $this->primary_site_slug ),
+-- DIFF_B: 					'url'   => \Jetpack::build_redirect_url( 'calypso-plugins' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/plugins/manage
+-- SOURCE: calypso-plugins-manage
+-- TARGET: https://wordpress.com/plugins/manage
+-- DIFF_A:   					'url'   => 'https://wordpress.com/plugins/manage/' . esc_attr( $this->primary_site_slug ),
+-- DIFF_B: 					'url'   => \Jetpack::build_redirect_url( 'calypso-plugins-manage' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/domains
+-- SOURCE: calypso-domains
+-- TARGET: https://wordpress.com/domains
+-- DIFF_A:   						'url'   => 'https://wordpress.com/domains/' . esc_attr( $this->primary_site_slug ),
+-- DIFF_B: 						'url'   => \Jetpack::build_redirect_url( 'calypso-domains' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/domains/add
+-- SOURCE: calypso-domains-add
+-- TARGET: https://wordpress.com/domains/add
+-- DIFF_A:   						'url'   => 'https://wordpress.com/domains/add/' . esc_attr( $this->primary_site_slug ),
+-- DIFF_B: 						'url'   => \Jetpack::build_redirect_url( 'calypso-domains-add' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/settings/general
+-- SOURCE: calypso-settings-general
+-- TARGET: https://wordpress.com/settings/general
+-- DIFF_A:   					'href'   => 'https://wordpress.com/settings/general/' . esc_attr( $this->primary_site_slug ),
+-- DIFF_B: 					'href'   => \Jetpack::build_redirect_url( 'calypso-settings-general' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://wordpress.com/home
+-- SOURCE: calypso-home
+-- TARGET: https://wordpress.com/home
+-- DIFF_A:   				'href'   => 'https://wordpress.com/home/' . esc_attr( $this->primary_site_slug ),
+-- DIFF_B: 				'href'   => \Jetpack::build_redirect_url( 'calypso-home' ),
+-- [OK] Perfect Match!
+
+
+
+Found in a/modules/module-info.php
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/gravatar-hovercards
+-- SOURCE: jetpack-support-gravatar-hovercards
+-- TARGET: https://jetpack.com/support/gravatar-hovercards
+-- DIFF_A:   	echo 'https://jetpack.com/support/gravatar-hovercards/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-gravatar-hovercards' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/shortcode-embeds
+-- SOURCE: jetpack-support-shortcode-embeds
+-- TARGET: https://jetpack.com/support/shortcode-embeds
+-- DIFF_A:   	echo 'https://jetpack.com/support/shortcode-embeds/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-shortcode-embeds' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/wordpress-com-stats
+-- SOURCE: jetpack-support-wordpress-com-stats
+-- TARGET: https://jetpack.com/support/wordpress-com-stats
+-- DIFF_A:   	echo 'https://jetpack.com/support/wordpress-com-stats/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-wordpress-com-stats' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/publicize
+-- SOURCE: jetpack-support-publicize
+-- TARGET: https://jetpack.com/support/publicize
+-- DIFF_A:   	echo 'https://jetpack.com/support/publicize/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-publicize' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/notifications
+-- SOURCE: jetpack-support-notifications
+-- TARGET: https://jetpack.com/support/notifications
+-- DIFF_A:   	echo 'https://jetpack.com/support/notifications/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-notifications' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/beautiful-math-with-latex
+-- SOURCE: jetpack-support-beautiful-math-with-latex
+-- TARGET: https://jetpack.com/support/beautiful-math-with-latex
+-- DIFF_A:   	echo 'https://jetpack.com/support/beautiful-math-with-latex/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-beautiful-math-with-latex' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/sharing
+-- SOURCE: jetpack-support-sharing
+-- TARGET: https://jetpack.com/support/sharing
+-- DIFF_A:   	echo 'https://jetpack.com/support/sharing/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-sharing' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/extra-sidebar-widgets
+-- SOURCE: jetpack-support-extra-sidebar-widgets
+-- TARGET: https://jetpack.com/support/extra-sidebar-widgets
+-- DIFF_A:   	echo 'https://jetpack.com/support/extra-sidebar-widgets/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-extra-sidebar-widgets' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/subscriptions
+-- SOURCE: jetpack-support-subscriptions
+-- TARGET: https://jetpack.com/support/subscriptions
+-- DIFF_A:   	echo 'https://jetpack.com/support/subscriptions/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-subscriptions' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/enhanced-distribution
+-- SOURCE: jetpack-support-enhanced-distribution
+-- TARGET: https://jetpack.com/support/enhanced-distribution
+-- DIFF_A:   	echo 'https://jetpack.com/support/enhanced-distribution/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-enhanced-distribution' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/protect
+-- SOURCE: jetpack-support-protect
+-- TARGET: https://jetpack.com/support/protect
+-- DIFF_A:   	echo 'https://jetpack.com/support/protect/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-protect' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/json-api
+-- SOURCE: jetpack-support-json-api
+-- TARGET: https://jetpack.com/support/json-api
+-- DIFF_A:   	echo 'https://jetpack.com/support/json-api/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-json-api' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/contact-form
+-- SOURCE: jetpack-support-contact-form
+-- TARGET: https://jetpack.com/support/contact-form
+-- DIFF_A:   	echo 'https://jetpack.com/support/contact-form/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-contact-form' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/comments
+-- SOURCE: jetpack-support-comments
+-- TARGET: https://jetpack.com/support/comments
+-- DIFF_A:   	echo 'https://jetpack.com/support/comments';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-comments' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/carousel
+-- SOURCE: jetpack-support-carousel
+-- TARGET: https://jetpack.com/support/carousel
+-- DIFF_A:   	echo 'https://jetpack.com/support/carousel';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-carousel' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/custom-css
+-- SOURCE: jetpack-support-custom-css
+-- TARGET: https://jetpack.com/support/custom-css
+-- DIFF_A:   	echo 'https://jetpack.com/support/custom-css';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-custom-css' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/masterbar
+-- SOURCE: jetpack-support-masterbar
+-- TARGET: https://jetpack.com/support/masterbar
+-- DIFF_A:   	echo 'https://jetpack.com/support/masterbar/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-masterbar' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/infinite-scroll
+-- SOURCE: jetpack-support-infinite-scroll
+-- TARGET: https://jetpack.com/support/infinite-scroll
+-- DIFF_A:   	echo 'https://jetpack.com/support/infinite-scroll';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-infinite-scroll' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/post-by-email
+-- SOURCE: jetpack-support-post-by-email
+-- TARGET: https://jetpack.com/support/post-by-email
+-- DIFF_A:   	echo 'https://jetpack.com/support/post-by-email/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-post-by-email' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/photon
+-- SOURCE: jetpack-support-photon
+-- TARGET: https://jetpack.com/support/photon
+-- DIFF_A:   	echo 'https://jetpack.com/support/photon';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-photon' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/lazy-images
+-- SOURCE: jetpack-support-lazy-images
+-- TARGET: https://jetpack.com/support/lazy-images
+-- DIFF_A:   	echo 'https://jetpack.com/support/lazy-images/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-lazy-images' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/tiled-galleries
+-- SOURCE: jetpack-support-tiled-galleries
+-- TARGET: https://jetpack.com/support/tiled-galleries
+-- DIFF_A:   	echo 'https://jetpack.com/support/tiled-galleries/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-tiled-galleries' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/likes
+-- SOURCE: jetpack-support-likes
+-- TARGET: https://jetpack.com/support/likes
+-- DIFF_A:   	echo 'https://jetpack.com/support/likes/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-likes' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/widget-visibility
+-- SOURCE: jetpack-support-widget-visibility
+-- TARGET: https://jetpack.com/support/widget-visibility
+-- DIFF_A:   	echo 'https://jetpack.com/support/widget-visibility/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-widget-visibility' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/videopress
+-- SOURCE: jetpack-support-videopress
+-- TARGET: https://jetpack.com/support/videopress
+-- DIFF_A:   	echo 'https://jetpack.com/support/videopress/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-videopress' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/sso
+-- SOURCE: jetpack-support-sso
+-- TARGET: https://jetpack.com/support/sso
+-- DIFF_A:   	echo 'https://jetpack.com/support/sso/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-sso' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/monitor
+-- SOURCE: jetpack-support-monitor
+-- TARGET: https://jetpack.com/support/monitor
+-- DIFF_A:   	echo 'https://jetpack.com/support/monitor/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-monitor' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/related-posts
+-- SOURCE: jetpack-support-related-posts
+-- TARGET: https://jetpack.com/support/related-posts
+-- DIFF_A:   	echo 'https://jetpack.com/support/related-posts/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-related-posts' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/markdown
+-- SOURCE: jetpack-support-markdown
+-- TARGET: https://jetpack.com/support/markdown
+-- DIFF_A:   	echo 'https://jetpack.com/support/markdown/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-markdown' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/site-verification-tools
+-- SOURCE: jetpack-support-site-verification-tools
+-- TARGET: https://jetpack.com/support/site-verification-tools
+-- DIFF_A:   	echo 'https://jetpack.com/support/site-verification-tools/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-site-verification-tools' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/seo-tools
+-- SOURCE: jetpack-support-seo-tools
+-- TARGET: https://jetpack.com/support/seo-tools
+-- DIFF_A:   	echo 'https://jetpack.com/support/seo-tools/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-seo-tools' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/custom-content-types
+-- SOURCE: jetpack-support-custom-content-types
+-- TARGET: https://jetpack.com/support/custom-content-types
+-- DIFF_A:   	echo 'https://jetpack.com/support/custom-content-types/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-custom-content-types' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/site-management
+-- SOURCE: jetpack-support-site-management
+-- TARGET: https://jetpack.com/support/site-management
+-- DIFF_A:   	echo 'https://jetpack.com/support/site-management/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-site-management' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/sitemaps
+-- SOURCE: jetpack-support-sitemaps
+-- TARGET: https://jetpack.com/support/sitemaps
+-- DIFF_A:   	echo 'https://jetpack.com/support/sitemaps/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-sitemaps' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/google-analytics
+-- SOURCE: jetpack-support-google-analytics
+-- TARGET: https://jetpack.com/support/google-analytics
+-- DIFF_A:   	echo 'https://jetpack.com/support/google-analytics';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-google-analytics' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/woocommerce-analytics
+-- SOURCE: jetpack-support-woocommerce-analytics
+-- TARGET: https://jetpack.com/support/woocommerce-analytics
+-- DIFF_A:   	echo 'https://jetpack.com/support/woocommerce-analytics/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-woocommerce-analytics' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/search
+-- SOURCE: jetpack-support-search
+-- TARGET: https://jetpack.com/support/search
+-- DIFF_A:   	echo 'https://jetpack.com/support/search/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-search' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/comment-likes
+-- SOURCE: jetpack-support-comment-likes
+-- TARGET: https://jetpack.com/support/comment-likes
+-- DIFF_A:   	echo 'https://jetpack.com/support/comment-likes/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-comment-likes' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/asset-cdn
+-- SOURCE: jetpack-support-asset-cdn
+-- TARGET: https://jetpack.com/support/asset-cdn
+-- DIFF_A:   	echo 'https://jetpack.com/support/asset-cdn/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-asset-cdn' ) );
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/support/copy-post-2
+-- SOURCE: jetpack-support-copy-post-2
+-- TARGET: https://jetpack.com/support/copy-post-2
+-- DIFF_A:   	echo 'https://jetpack.com/support/copy-post-2/';
+-- DIFF_B: 	echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-copy-post-2' ) );
+-- [OK] Perfect Match!
+
+
+
+Found in a/modules/plugin-search.php
+[!!] Diffs count do not match
+-- [ISSUE] URLs and function calls count dont match
+
+
+Found in a/modules/post-by-email/class-jetpack-post-by-email.php
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/post-by-email
+-- SOURCE: jetpack-support-post-by-email
+-- TARGET: https://jetpack.com/support/post-by-email
+-- DIFF_A:   									<span class="description"><a target="_blank" href="https://jetpack.com/support/post-by-email/"><?php esc_html_e( 'More information', 'jetpack' ); ?></a></span>
+-- DIFF_B: 									<span class="description"><a target="_blank" href="<?php echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-post-by-email' ) ); ?>"><?php esc_html_e( 'More information', 'jetpack' ); ?></a></span>
+-- [OK] Perfect Match!
+
+
+
+Found in a/modules/protect/blocked-login-page.php
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/security-features
+-- SOURCE: jetpack-support-security-features
+-- TARGET: https://jetpack.com/support/security-features
+-- DIFF_A:   	const HELP_URL = 'https://jetpack.com/support/security-features/#unblock';
+-- DIFF_B: 		return \Jetpack::build_redirect_url( 'jetpack-support-security-features', array( 'anchor' => 'unblock' ) );
+-- [OK] Perfect Match!
+
+
+
+Found in a/modules/publicize/publicize-jetpack.php
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/publicize/facebook
+-- SOURCE: jetpack-support-publicize-facebook
+-- TARGET: https://jetpack.com/support/publicize/facebook
+-- DIFF_A:   				'https://jetpack.com/support/publicize/facebook'
+-- DIFF_B: 				esc_url( \Jetpack::build_redirect_url( 'jetpack-support-publicize-facebook' ) )
+-- [OK] Perfect Match!
+
+
+
+Found in a/modules/publicize/publicize.php
+[!!] Diffs count do not match
+-- [ISSUE] URLs and function calls count dont match
+
+
+Found in a/modules/sharedaddy.php
+[OK] Diffs count matches 
+-- ORIG:   https://wordpress.com/marketing/sharing-buttons
+-- SOURCE: wpcom-marketing-sharing-buttons
+-- TARGET: https://wordpress.com/marketing/sharing-buttons
+-- DIFF_A:   	return 'https://wordpress.com/marketing/sharing-buttons/' . $site_suffix;
+-- DIFF_B: 	return \Jetpack::build_redirect_url( 'wpcom-marketing-sharing-buttons' );
+-- [OK] Perfect Match!
+
+
+
+Found in a/modules/sso.php
+[!!] Diffs count do not match
+-- [ISSUE] URLs and function calls count dont match
+
+
+Found in a/modules/sso/class.jetpack-sso-helpers.php
+[OK] Diffs count matches 
+
+
+Found in a/modules/sso/class.jetpack-sso-notices.php
+[OK] Diffs count matches 
+-- ORIG:   https://wordpress.com/me/security/two-step
+-- SOURCE: calypso-me-security-2fa
+-- TARGET: https://wordpress.com/me/security/two-step
+-- DIFF_A:   			'https://wordpress.com/me/security/two-step',
+-- DIFF_B: 			\Jetpack::build_redirect_url( 'calypso-me-security-2fa' ),
+-- [OK] Perfect Match!
+
+-- ORIG:   https://support.wordpress.com/security/two-step-authentication
+-- SOURCE: wpcom-support-security-2fa
+-- TARGET: https://wordpress.com/support/security/two-step-authentication
+-- DIFF_A:   			'https://support.wordpress.com/security/two-step-authentication/'
+-- DIFF_B: 			\Jetpack::build_redirect_url( 'wpcom-support-security-2fa' )
+-- [ISSUE] URLs don't match: https://support.wordpress.com/security/two-step-authentication -> https://wordpress.com/support/security/two-step-authentication
+
+
+
+
+Found in a/modules/stats.php
+[!!] Diffs count do not match
+-- [ISSUE] URLs and function calls count dont match
+
+
+Found in a/modules/verification-tools/blog-verification-tools.php
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/site-verification-tools
+-- SOURCE: jetpack-support-site-verification-tools
+-- TARGET: https://jetpack.com/support/site-verification-tools
+-- DIFF_A:   			<h3 class="title"><?php _e( 'Website Verification Services', 'jetpack' ); ?>&nbsp;<a href="https://jetpack.com/support/site-verification-tools/" rel="noopener noreferrer" target="_blank">(?)</a></h3>
+-- DIFF_B: 			<h3 class="title"><?php esc_html_e( 'Website Verification Services', 'jetpack' ); ?>&nbsp;<a href="<?php echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-site-verification-tools' ) ); ?>" rel="noopener noreferrer" target="_blank">(?)</a></h3>
+-- [OK] Perfect Match!
+
+
+
+Found in a/modules/widgets/contact-info.php
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/extra-sidebar-widgets/contact-info-widget
+-- SOURCE: jetpack-support-extra-sidebar-widgets-contact-info-widget
+-- TARGET: https://jetpack.com/support/extra-sidebar-widgets/contact-info-widget
+-- DIFF_A:   						'https://jetpack.com/support/extra-sidebar-widgets/contact-info-widget/'
+-- DIFF_B: 						esc_url( \Jetpack::build_redirect_url( 'jetpack-support-extra-sidebar-widgets-contact-info-widget' ) )
+-- [OK] Perfect Match!
+
+
+
+Found in a/modules/widgets/eu-cookie-law/form.php
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/ads
+-- SOURCE: jetpack-support-ads
+-- TARGET: https://jetpack.com/support/ads
+-- DIFF_A:   							esc_url( 'https://jetpack.com/support/ads/#privacy' )
+-- DIFF_B: 							esc_url( \Jetpack::build_redirect_url( 'jetpack-support-ads', array( 'anchor' => 'privacy' ) ) )
+-- [OK] Perfect Match!
+
+-- [ISSUE] Slug jetpack-suport-extra-sidebar-widgets-eu-cookie-law-widget not found in wpcom targets array
+-- ORIG:   https://jetpack.com/support/extra-sidebar-widgets/eu-cookie-law-widget
+-- SOURCE: jetpack-suport-extra-sidebar-widgets-eu-cookie-law-widget
+-- TARGET: Not found!
+-- DIFF_A:   	<a href="https://jetpack.com/support/extra-sidebar-widgets/eu-cookie-law-widget/">
+-- DIFF_B: 	<a href="<?php echo esc_url( \Jetpack::build_redirect_url( 'jetpack-suport-extra-sidebar-widgets-eu-cookie-law-widget' ) ); ?>">
+-- [ISSUE] URLs don't match: https://jetpack.com/support/extra-sidebar-widgets/eu-cookie-law-widget -> Not found!
+
+
+
+
+Found in a/modules/widgets/gravatar-profile.php
+[OK] Diffs count matches 
+-- ORIG:   https://wordpress.com/me
+-- SOURCE: calypso-me
+-- TARGET: https://wordpress.com/me
+-- DIFF_A:   				$profile_url = 'https://wordpress.com/me';
+-- DIFF_B: 				$profile_url = \Jetpack::build_redirect_url( 'calypso-me' );
+-- [OK] Perfect Match!
+
+
+
+Found in a/modules/widgets/my-community.php
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/getting-more-views-and-traffic
+-- SOURCE: jetpack-support-getting-more-views-and-traffic
+-- TARGET: https://jetpack.com/support/getting-more-views-and-traffic
+-- DIFF_A:   						'https://jetpack.com/support/getting-more-views-and-traffic/'
+-- DIFF_B: 						esc_url( \Jetpack::build_redirect_url( 'jetpack-support-getting-more-views-and-traffic' ) )
+-- [OK] Perfect Match!
+
+
+
+Found in a/modules/widgets/search.php
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/search
+-- SOURCE: jetpack-support-search
+-- TARGET: https://jetpack.com/support/search
+-- DIFF_A:   						<a href="https://jetpack.com/support/search/#filters-not-showing-up" target="_blank">
+-- DIFF_B: 						<a href="<?php echo esc_url( \Jetpack::build_redirect_url( 'jetpack-support-search', array( 'anchor' => 'filters-not-showing-up' ) ) ); ?>" target="_blank">
+-- [OK] Perfect Match!
+
+
+
+Found in a/modules/widgets/top-posts.php
+[!!] Diffs count do not match
+-- [ISSUE] URLs and function calls count dont match
+
+
+Found in a/modules/widgets/twitter-timeline.php
+[OK] Diffs count matches 
+-- ORIG:   https://support.wordpress.com/widgets/twitter-timeline-widget
+-- SOURCE: wpcom-support-widgets-twitter-timeline-widget
+-- TARGET: https://wordpress.com/support/widgets/twitter-timeline-widget
+-- DIFF_A:   			$base_url = 'https://support.wordpress.com/widgets/twitter-timeline-widget/';
+-- DIFF_B: 			$base_url = esc_url( \Jetpack::build_redirect_url( 'wpcom-support-widgets-twitter-timeline-widget' ) );
+-- [ISSUE] URLs don't match: https://support.wordpress.com/widgets/twitter-timeline-widget -> https://wordpress.com/support/widgets/twitter-timeline-widget
+
+
+-- ORIG:   https://jetpack.com/support/extra-sidebar-widgets/twitter-timeline-widget
+-- SOURCE: jetpack-support-extra-sidebar-widgets-twitter-timeline-widget
+-- TARGET: https://jetpack.com/support/extra-sidebar-widgets/twitter-timeline-widget
+-- DIFF_A:   			$base_url = 'https://jetpack.com/support/extra-sidebar-widgets/twitter-timeline-widget/';
+-- DIFF_B: 			$base_url = esc_url( \Jetpack::build_redirect_url( 'jetpack-support-extra-sidebar-widgets-twitter-timeline-widget' ) );
+-- [OK] Perfect Match!
+
+
+
+Found in a/packages/jitm/src/class-jitm.php
+[OK] Diffs count matches 
+-- ORIG:   https://jetpack.com/support/primary-user
+-- SOURCE: jetpack-support-primary-user
+-- TARGET: https://jetpack.com/support/primary-user
+-- DIFF_A:   			'https://jetpack.com/support/primary-user/'
+-- DIFF_B: 			esc_url( \Jetpack::build_redirect_url( 'jetpack-support-primary-user' ) )
+-- [OK] Perfect Match!
+
+-- ORIG:   https://jetpack.com/contact-support
+-- SOURCE: jetpack-contact-support
+-- TARGET: https://jetpack.com/contact-support
+-- DIFF_A:   			'https://jetpack.com/contact-support'
+-- DIFF_B: 			esc_url( \Jetpack::build_redirect_url( 'jetpack-contact-support' ) )
+-- [OK] Perfect Match!
+
+
+
+Found in a/tests/e2e/lib/pages/wpcom/home.js
+[OK] Diffs count matches 
+-- ORIG:   https://wordpress.com
+-- SOURCE: wpcom
+-- TARGET: https://wordpress.com
+-- DIFF_A:   		const url = 'https://wordpress.com/';
+-- DIFF_B: 		const url = getRedirectUrl( 'wpcom' );
+-- [OK] Perfect Match!
+
+
+
+Found in a/tests/e2e/lib/pages/wpcom/login.js
+[OK] Diffs count matches 
+-- ORIG:   https://wordpress.com/log-in
+-- SOURCE: wpcom-log-in
+-- TARGET: https://wordpress.com/log-in
+-- DIFF_A:   		const url = 'https://wordpress.com/log-in';
+-- DIFF_B: 		const url = getRedirectUrl( 'wpcom-log-in' );
+-- [OK] Perfect Match!
+
+
+
+Found in a/tests/php/general/test_class.jetpack.php
+[OK] Diffs count matches 
+-- [ISSUE] Slug simple not found in wpcom targets array
+-- ORIG:   https://jetpack.com/redirect
+-- SOURCE: simple
+-- TARGET: Not found!
+-- DIFF_A:   		$this->assertEquals( 'https://jetpack.com/redirect?source=simple&site=example.org', $url );
+-- DIFF_B: 		$url = \Jetpack::build_redirect_url( 'simple' );
+-- [ISSUE] URLs don't match: https://jetpack.com/redirect -> Not found!
+
+
+-- [ISSUE] Slug simple not found in wpcom targets array
+-- ORIG:   https://jetpack.com/redirect
+-- SOURCE: simple
+-- TARGET: Not found!
+-- DIFF_A:   		$this->assertEquals( 'https://jetpack.com/redirect?source=simple&site=example.org', $url );
+-- DIFF_B: 		$url = \Jetpack::build_redirect_url( 'simple', array( 'invalid' => 'value' ) );
+-- [ISSUE] URLs don't match: https://jetpack.com/redirect -> Not found!
+
+
+-- [ISSUE] Slug simple not found in wpcom targets array
+-- ORIG:   https://jetpack.com/redirect
+-- SOURCE: simple
+-- TARGET: Not found!
+-- DIFF_A:   		$this->assertEquals( 'https://jetpack.com/redirect?source=simple&site=example.org&path=value', $url );
+-- DIFF_B: 		$url = \Jetpack::build_redirect_url( 'simple', array( 'path' => 'value' ) );
+-- [ISSUE] URLs don't match: https://jetpack.com/redirect -> Not found!
+
+
+-- [ISSUE] Slug simple not found in wpcom targets array
+-- ORIG:   https://jetpack.com/redirect
+-- SOURCE: simple
+-- TARGET: Not found!
+-- DIFF_A:   		$this->assertEquals( 'https://jetpack.com/redirect?source=simple&site=example.org&path=' . $v, $url );
+-- DIFF_B: 		$url = \Jetpack::build_redirect_url( 'simple', array( 'path' => 'weird value!' ) );
+-- [ISSUE] URLs don't match: https://jetpack.com/redirect -> Not found!
+
+
+-- [ISSUE] Slug simple not found in wpcom targets array
+-- ORIG:   https://jetpack.com/redirect
+-- SOURCE: simple
+-- TARGET: Not found!
+-- DIFF_A:   		$this->assertEquals( 'https://jetpack.com/redirect?source=simple&site=example.org&query=value', $url );
+-- DIFF_B: 		$url = \Jetpack::build_redirect_url( 'simple', array( 'query' => 'value' ) );
+-- [ISSUE] URLs don't match: https://jetpack.com/redirect -> Not found!
+
+
+-- [ISSUE] Slug simple not found in wpcom targets array
+-- ORIG:   https://jetpack.com/redirect
+-- SOURCE: simple
+-- TARGET: Not found!
+-- DIFF_A:   		$this->assertEquals( 'https://jetpack.com/redirect?source=simple&site=example.org&query=' . $v, $url );
+-- DIFF_B: 		$url = \Jetpack::build_redirect_url( 'simple', array( 'query' => 'key=value&key2=value2' ) );
+-- [ISSUE] URLs don't match: https://jetpack.com/redirect -> Not found!
+
+
+-- [ISSUE] Slug simple not found in wpcom targets array
+-- ORIG:   https://jetpack.com/redirect
+-- SOURCE: simple
+-- TARGET: Not found!
+-- DIFF_A:   		$this->assertEquals( 'https://jetpack.com/redirect?source=simple&site=example.org&anchor=value', $url );
+-- DIFF_B: 		$url = \Jetpack::build_redirect_url( 'simple', array( 'anchor' => 'value' ) );
+-- [ISSUE] URLs don't match: https://jetpack.com/redirect -> Not found!
+
+
+-- [ISSUE] Slug simple not found in wpcom targets array
+-- ORIG:   https://jetpack.com/redirect
+-- SOURCE: simple
+-- TARGET: Not found!
+-- DIFF_A:   		$this->assertEquals( 'https://jetpack.com/redirect?source=simple&site=example.org&anchor=' . $v, $url );
+-- DIFF_B: 		$url = \Jetpack::build_redirect_url( 'simple', array( 'anchor' => 'key=value&key2=value2' ) );
+-- [ISSUE] URLs don't match: https://jetpack.com/redirect -> Not found!
+
+
+
+
+
+
+106 files analyzed
+21 files with issues to be checked
+NOTE: This script does not check if path, query and anchor are being properly passed. Please verify!
+
+You're welcome!
+
