@@ -45,6 +45,7 @@ $func_pattern = '/(Jetpack::build_redirect_url|getRedirectUrl)\( \'([a-z0-9\-]+)
 
 global $issues;
 $issues = [];
+$manual_check = [];
 
 $files_count = 0;
 
@@ -144,6 +145,7 @@ foreach ( $diffs as $diff ) {
 	} else {
 		echo "[!!] Diffs count do not match\n";
 		add_file_issue( $file, 'URLs and function calls count dont match' );
+		$manual_check[] = $file;
 	}
 
 	echo "\n\n";
@@ -152,9 +154,23 @@ foreach ( $diffs as $diff ) {
 
 echo "\n\n";
 echo "$files_count files analyzed\n";
-echo  count($issues) . " files with issues to be checked\n";
-echo "NOTE: This script does not check if path, query and anchor are being properly passed. Please verify!\n\n";
-echo "You're welcome!\n\n";
+echo  count($issues) . " files with issues to be checked\n\n";
+
+$manual_check = array_unique( $manual_check );
+
+echo "List of checked files with issues:\n";
+foreach ( $issues as $file => $issue ) {
+	if ( !in_array( $file, $manual_check ) ) {
+		echo "-[ ] $file\n";
+	}
+}
+
+echo "\nList of files that could not be checked:\n";
+foreach ( $manual_check as $file ) {
+	echo "-[ ] $file\n";
+}
+
+echo "\nYou're welcome!\n\n";
 
 //var_dump( $issues );
 //var_dump( array_unique($urls));

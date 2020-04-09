@@ -2700,7 +2700,49 @@ Found in a/tests/php/general/test_class.jetpack.php
 
 106 files analyzed
 39 files with issues to be checked
-NOTE: This script does not check if path, query and anchor are being properly passed. Please verify!
+
+List of checked files with issues:
+-[ ] a/_inc/client/at-a-glance/backups.jsx
+-[ ] a/_inc/client/at-a-glance/stats/index.jsx
+-[ ] a/_inc/client/components/jetpack-notices/index.jsx
+-[ ] a/_inc/client/components/product-card/index.jsx
+-[ ] a/_inc/client/components/support-card/index.jsx
+-[ ] a/_inc/client/discussion/comments.jsx
+-[ ] a/_inc/client/my-plan/my-plan-body.jsx
+-[ ] a/_inc/client/my-plan/my-plan-header/checklist-cta.js
+-[ ] a/_inc/client/plans/top-button.jsx
+-[ ] a/_inc/client/pro-status/index.jsx
+-[ ] a/_inc/client/security/jetpack-backup.jsx
+-[ ] a/_inc/client/traffic/index.jsx
+-[ ] a/_inc/lib/admin-pages/class.jetpack-admin-page.php
+-[ ] a/_inc/lib/debugger/class-jetpack-cxn-tests.php
+-[ ] a/_inc/lib/debugger/class-jetpack-debug-data.php
+-[ ] a/_inc/lib/debugger/class-jetpack-debugger.php
+-[ ] a/modules/calypsoify/class.jetpack-calypsoify.php
+-[ ] a/modules/custom-content-types.php
+-[ ] a/modules/custom-css/custom-css.php
+-[ ] a/modules/masterbar/masterbar.php
+-[ ] a/modules/post-by-email/class-jetpack-post-by-email.php
+-[ ] a/modules/protect/blocked-login-page.php
+-[ ] a/modules/sso/class.jetpack-sso-notices.php
+-[ ] a/modules/verification-tools/blog-verification-tools.php
+-[ ] a/modules/widgets/eu-cookie-law/form.php
+-[ ] a/modules/widgets/search.php
+-[ ] a/modules/widgets/twitter-timeline.php
+-[ ] a/tests/php/general/test_class.jetpack.php
+
+List of files that could not be checked:
+-[ ] /dev/null
+-[ ] a/_inc/client/traffic/ads.jsx
+-[ ] a/_inc/client/traffic/related-posts.jsx
+-[ ] a/_inc/lib/core-api/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-mailchimp.php
+-[ ] a/_inc/lib/functions.wp-notify.php
+-[ ] a/class.jetpack.php
+-[ ] a/modules/plugin-search.php
+-[ ] a/modules/publicize/publicize.php
+-[ ] a/modules/sso.php
+-[ ] a/modules/stats.php
+-[ ] a/modules/widgets/top-posts.php
 
 You're welcome!
 
