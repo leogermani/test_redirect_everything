@@ -104,10 +104,18 @@ foreach ( $diffs as $diff ) {
 			$orig_line = $url['line'];
 			$source = $slugs_pile[$i]['match'];
 			$source_line = $slugs_pile[$i]['line'];
+			$needs_verify = false;
+
+			if ( strstr( $orig_line, '#' ) || strstr( $orig_line, '?' ) ) {
+				$needs_verify = true;
+			}
 
 			if ( array_key_exists( $source, $targets ) ) {
 				$new_url = untrailingslashit( $targets[ $source ] );
 				$new_url = str_replace( '/[site]', '', $new_url);
+				if ( strstr( $new_url, '[path]' ) ) {
+					$needs_verify = true;
+				}
 				$new_url = str_replace( '/[path]', '', $new_url);
 			} else {
 				$new_url = 'Not found!';
@@ -121,7 +129,10 @@ foreach ( $diffs as $diff ) {
 			echo "-- DIFF_B: ", $source_line, "\n";
 
 			if ( $orig_url == $new_url ) {
-				echo "-- [OK] Perfect Match!";
+				echo "-- [OK] Perfect Match!\n";
+				if ( $needs_verify ) {
+					add_file_issue( $file, 'URL looks  good, but need to check path, anchor and/or query' );
+				}
 			} else {
 				add_file_issue( $file, 'URLs don\'t match: ' . $orig_url . ' -> ' . $new_url );
 			}
