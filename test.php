@@ -19,7 +19,7 @@ $git = new Git('../jetpack');
 
 $diff = $git->getDiff(
   'master',
-  'add/redirect-everything'
+  'add/redirect-everything-package'
 );
 
 $parser = new Parser;
@@ -41,7 +41,8 @@ $replaced_domains = implode( '|', $replaced_domains );
 
 $url_pattern = '/https?:\/\/(' . $replaced_domains . ')\/?[a-z0-9\.\-\/]*/';
 //$url_pattern = '/https?:\/\/([^\/]+)\/?[a-z0-9\.\-\/]*/';
-$func_pattern = '/(Jetpack::build_redirect_url|getRedirectUrl)\( \'([a-z0-9\-]+)\'/';
+//$func_pattern = '/(Jetpack::build_redirect_url|getRedirectUrl)\( \'([a-z0-9\-]+)\'/';
+$func_pattern = '/(Redirect::get_url|getRedirectUrl)\( \'([a-z0-9\-]+)\'/';
 
 global $issues;
 $issues = [];
